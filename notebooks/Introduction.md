@@ -20,9 +20,17 @@ The expected result of the work is the development of a methodology for assessin
 
 The object of the research is an algorithm that combines satellite data of different formats to model the risk of uncontrolled forest fires and revise fire indices that are used to assess fire risk in [insert area of concern].
 
-# Work objectives
+# Study objective
 
-To develop a reasonable methodology of classification algorithms combining satellite image data in different formats, allowing to identify the risk of forest fires and present it in a constantly updated thematic map.
+To develop a reasonable methodology of classification algorithms combining satellite image data in different formats, allowing to identify the risk of forest fires and present it in a constantly updated thematic map as a graphical representation of fire indices. A map of forest fire risk is the graphical representation of a collection of levels of risk obtained by an
+index of risk. An index of risk is made up by different variables combined in such a way to obtain particular values; which are referred to be as levels of risk.[1] 
+
+An index of fire risk have different nature and methods, so index performances comparison is required in order to establish which index is best suitable to be adopted at European level.
+
+Consequently, the European Commission has incessantly introduced proper regulations and schemes of prevention in which a production of maps of forest fire risk is required.[1]
+
+Thus, this work presents results obtained by a
+retrospective analysis of long term time series of remote sensing and meteorological data. [1]
 
 # Work tasks
 
