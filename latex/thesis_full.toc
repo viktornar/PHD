@@ -1,0 +1,13 @@
+\babel@toc {british}{}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Notation}{vi}{section*.5}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Application Examples}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}The Context of a Concept Drift Problem}{4}{chapter.2}%
+\contentsline {chapter}{\numberline {A}Algorithms}{5}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Derivations and Computation Details}{6}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Change Detection Using Hotelling T-test}{6}{section.B.1}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{8}{section*.7}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Publications by the Author}{10}{appendix*.8}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Curriculum Vitae}{11}{Item.4}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Vocabulary - \v {Z}odyn\.elis}{12}{appendix*.12}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Summary in Lithuanian (Santrauka)}{13}{appendix*.13}%
