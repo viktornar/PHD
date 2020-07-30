@@ -1,53 +1,68 @@
 \chapter{Introduction}
 \label{cha:intro}
 
-We live in a dynamic world, where changes are a part of everyday life.
-When there is a shift in data, the classification or prediction models need to be adaptive to the changes.
-In data mining the phenomenon of change in data over time is known as \emph{concept drift}.
+\section{Research problem}
 
+	For the last decade in the systems related to geographic information (for the sake of simplicity let call such system as Geographic Information System) start increasingly using publicly and openly available data that can be used free of charge for a variety of purposes and tasks. Satellite data from the Sentinel program run by the European Space Agency (ESA) can be used to monitor environmental pollution parameters, soil, vegetation, forest and water resources, can be used for natural consequences management and risk identification.
+	
+	The Copernicus program, developed by ESA, provides high-quality and freely available Sentinel satellite data that can be adapted to meet a variety of Geographic Information System (GIS) challenges. One example of such a task is the identification of fire damage to a forest or the classification of arid areas to prevent a potential fire.
+	
+	Due to global warming, increased and prolonged heat waves, there is an increasing risk of uncontrolled fires. Uncontrolled fires are the cause of air, water pollution, and the destruction of flora and fauna.
+	
+	Using multi-spectral, hyper-spectral and radio spectral cameras, chemical, thermal and biological contamination can be captured rapidly.
+	Numerous software programs have been developed for the processing of satellite images. However, many software programs typically consist of separate units used to solve specific tasks or work with specific data formats and do not provide a single information system that can be used to quickly and effectively assess chemical, biological or other sources of pollution and natural disaster risk. The biggest problem when working with satellite imagery is the large amount of data that takes a long time to process due to the different data formats, unclear data processing methodology, consistent data processing, and limited job automation.
+	
+	A thematic data processing methodology for the analysis of multi-spectral spatial data images with respect to their fast and efficient processing of satellite images is proposed. The methodology is designed to identify environmental parameters to assess the risk of fire or other natural disasters, based on various results of electromagnetic wave reflection analysis in different ranges and selection of optimal electromagnetic wave bands. ESA's Sentinel-2 satellite imagery, which is increasingly used in European countries, is used as the main data source for the analysis.
 
-In this thesis we consider supervised learning under concept drift. In particular, we are interested in the training set formation strategies, which lead to achieving adaptivity to concept drift.
+\section{Relevance of the work}
+	In recent years, there has been an increasing need to effectively assess the risks (large-scale fires, oil spills, etc.) that can be caused by both natural disasters and human activities, and to take all preventive measures where possible. Large uncontrolled fires or oil spills affect climate change, soil acidification, water pollution. Increasingly, remote sensing systems are in place that can cover large areas and perform automated monitoring of the area in question.
+	
+	Such an analysis requires access to constantly updated and high-resolution remote sensing data. Such data are provided by ESO (European Space Agency) under the Copernicus program. Data from remote sensing data from Sentinel-1 and Sentinel-2 satellites are widely used to address risk management challenges such as fire damage detection or prevention. The images provided by Sentinel-1 and Sentinel-2 satellites are and will be widely used for various environmental tasks, mapping of natural resources, modeling of natural processes in a large area due to their accuracy, free provision and frequent updating. The data provided by the Sentinel-1 and Sentinel-2 satellites open up new opportunities for research.
+	
+	Many applications of remote sensing to the monitoring of environmental parameters require frequent and dense coverage of spatial data in the study area. Much of the satellite imagery is free and publicly available online. Sentinel satellite imagery supplemented with data from other satellite systems can form the basis for an information system for monitoring a large area, the analysis of which can be used by public authorities, for more effective risk prevention and control.
+	
+	The leading countries in the field of remote sensing in the world are the USA, Russia, France, Germany, China. For example, U.S. Forest Service has done most of its research into forest fire risk identification and management. The U.S. Forest Service also provides guidelines and various indices for assessing forest status, drought levels, and so on.
+	The paper proposes a methodology for forest fire risk assessment by processing Sentinel satellite images with data from other remote sensing systems, using multi-spectral image classification algorithms as a basis in conjunction with learning computer neural networks. To develop a methodology for the prevention and prediction of wild fire risk.
+	The expected result of the work is the development of a methodology for assessing the condition of forests, assessment of fire risk and prediction it spread, and the provision of recommendations on how to improve environmental monitoring.
 
-In this chapter we depict the research area, give motivating application examples and present the research outline and methodology. We define and narrow down a specific research problem and formulate the research questions.
-We finish the chapter by outlining and depicting the structure of the thesis.
+\section{Object of research}
+	The object of the research is an algorithm that combines satellite data of different formats to model the risk of uncontrolled forest fires and revise fire indices that are used to assess fire risk in [insert area of concern].
 
-%-------------------------------
-\section{Application Examples}
+\section{Study objective}
+	To develop a reasonable methodology of classification algorithms combining satellite image data in different formats, allowing to identify the risk of forest fires and present it in a constantly updated thematic map as a graphical representation of fire indices. A map of forest fire risk is the graphical representation of a collection of levels of risk obtained by an
+	index of risk. An index of risk is made up by different variables combined in such a way to obtain particular values; which are referred to be as levels of risk. [1] 
+	
+	An index of fire risk have different nature and methods, so index performances comparison is required in order to establish which index is best suitable to be adopted at European level.
+	
+	Consequently, the European Commission has incessantly introduced proper regulations and schemes of prevention in which a production of maps of forest fire risk is required. [1]
+	
+	Thus, this work presents results obtained by a
+	retrospective analysis of long term time series of remote sensing and meteorological data. [1]
 
-Changes in underlying data might occur due to changing personal interests, changes in population, adversary activities or they can be attributed to a complex nature of the environment.
-Consider three motivating examples illustrating \emph{a concept drift} phenomenon.
+\section{Work tasks}
+	In order to achieve the goal of the work, the following tasks need to be solved at work:
+\begin{itemize}
+	\item Selection of remote sensing (passive and active) methods and criteria for identification, investigation, monitoring and modeling of fire risk areas.
+	\item Carry out experimental research using optical satellite images, identify the necessary indices for the identification of fire sites.
+	\item Carry out experimental research using radar satellite images, identify the necessary indices for the identification of fire sites.
+	\item To select criteria suitable for monitoring the fire risk in the Baltic States.
+	\item To develop an algorithm combining satellite data of different formats for the identification and modeling of fire sites.
+	\item Create a thematic real-time renewable fire risk map.
+\end{itemize}
 
-\begin{example} [Fraud detection]
-\label{exa:fraud}
-The estimated loss of UK issued credit cards amounts to 610 million pounds in year 2008 \cite{cardwatch}. These costs are born by the banking industry and indirectly by users via increased premium for card insurance. The financial institutions employ filters to data mine and monitor daily transactions.
+\section{Research methodology}
+	The dissertation uses theoretical and experimental research using satellite imagery, geographic information technologies, digital modeling and statistical modeling methods.
 
-The classification decisions need to be made online, and the behavior of both legitimate users and criminals is shifting. Moreover, the criminals might try using adversary tactics to overcome the fraud detection mechanisms. Therefore the filters used for monitoring need to be reactive to changing adversary behavior to keep the classification accuracy. Similar motivation applies to computer network security monitoring, e-mail spam filtering.
-\end{example}
+\section{Scientific novelty of the work and its significance}
+	During the preparation of the dissertation, the following new results important for environmental engineering science and for environmental protection:
+\begin{itemize}
+	\item A methodology has been developed that allows the analysis of large areas using not only passive but also active remote sensing systems.
+	\item The revised and selected indices are intended to determine the forest fire risk or a new methodology for calculating the indices has been developed based on experimental studies.
+	\item An algorithm has been developed for processing satellite images of different formats by modeling fire risk.
+\end{itemize}
 
-\begin{example}[News recommendation]
-\label{exa:Kate}
-Kate reads news on the internet every day.
-She uses a news recommender system, which provides a ranked list of headlines of potential interest to Kate.
-The recommender model is constantly updated using the records of her browsing history.
-
-Kate has different interests.
-She likes Formula-1 sport, thus she reads the overviews of the races every second or third Monday, but not in winter when there are no races (long term interest).
-Recently she got an assignment at work to write a review on meat prices in New Zealand (short term temporal interest).
-She is also thinking if it is the right time to purchase a flat, thus her interest in real estate market situation has recently been increasing (gradual increase in interest).
-
-The learning models in the news recommender system need to be adaptive over time to take into account short and long term interests, sudden and gradual changes.
-\end{example}
-
-\begin{example} [Navigation]
-\label{exa:darpa}
-The DARPA Grand Challenge is a prize competition for driverless cars \cite{DARPA}. %, see Figure \ref{fig:car}.
-\begin{quotation}
-This event required teams to build an autonomous vehicle capable of driving in traffic, performing complex maneuvers such as merging, passing, parking and negotiating intersections.  $<\ldots>$ The autonomous vehicles have interacted with both manned and unmanned vehicle traffic in an urban environment. $<\ldots>$  Robots were also being judged on their ability to follow California driving rules.
-\end{quotation}
-The sensors in the vehicles are monitoring the road conditions and classifying them for the selection of a driving mode. The road is changing, the decisions need to be made in real time and it is not possible to account for every possible combination of road changes in advance. Therefore the winning entry in year 2005  `Stanley' \cite{Thrun06} was equipped with an adaptive learner (adaptive Mixture of Gaussians).
-
-Obviously, unmanned vehicles are not limited to competitions. They are irreplaceable in situations where it is dangerous (e.g. ecological accidents), infeasible (e.g. in space) to employ a human driver.
-\end{example}
-
-
-These application examples give a motivation for the learners to be equipped with the concept drift adaptation mechanisms. The need for adaptation mechanisms in data mining are discussed in a number of position papers \cite{Kelly99,Webb01,Dong03,Hand06,Kriegel07,Han09} for about a decade. In the next section we take a closer look, what adaptation mechanisms mean.
+\section{Practical significance of the work results}
+	The results of the research can be used to develop, prepare or use satellite imagery to assess and prevent the risk of uncontrolled forest fires or to assess the consequences of forest fires, to select data processing software and to adapt the data to interactive digital thematic maps.
+\section{Defensive statements}
+	 Assessing the risk of large-scale uncontrolled forest fires can help avoid dire consequences for the environment. Identification of fire risks will avoid the costs associated with fire suppression and its consequences.
+	

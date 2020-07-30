@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -16,72 +16,10 @@ A.~Bifet and R.~Gavalda.
 \newblock In \emph{Proc. of SIAM int. conf. on Data Mining (SDM'07)}, pages
   443--448. SIAM, 2007.
 
-\bibitem[Card Watch()]{cardwatch}
-Card Watch.
-\newblock Card fraud overview.
-\newblock online, accessed July 15, 2009.
-\newblock URL \url{http://www.cardwatch.org.uk}.
-
-\bibitem[DARPA()]{DARPA}
-DARPA.
-\newblock Urban challenge.
-\newblock online, accessed July 15, 2009.
-\newblock URL \url{http://www.darpa.mil/grandchallenge/index.asp}.
-
-\bibitem[Dong et~al.(2003)Dong, Han, Lakshmanan, Pei, Wang, and Yu]{Dong03}
-G.~Dong, J.~Han, L.~Lakshmanan, J.~Pei, H.~Wang, and P.~Yu.
-\newblock Online mining of changes from data streams: Research problems and
-  preliminary results.
-\newblock In \emph{Proc. of the SIGMOD2003 workshop on Management and
-  Processing of Data Streams}, 2003.
-
-\bibitem[Han and Gao(2009)]{Han09}
-J.~Han and J.~Gao.
-\newblock Research challenges for data mining in science and engineering.
-\newblock In \emph{Next Generation of Data Mining}. Chapman \& Hall, 2009.
-
-\bibitem[Hand(2006)]{Hand06}
-D.~Hand.
-\newblock Classifier technology and the illusion of progress.
-\newblock \emph{Statistical Science}, 21\penalty0 (1):\penalty0 1--14, 2006.
-
-\bibitem[Kelly et~al.(1999)Kelly, Hand, and Adams]{Kelly99}
-M.~Kelly, D.~Hand, and N.~Adams.
-\newblock The impact of changing populations on classifier performance.
-\newblock In \emph{KDD '99: Proc. of the 5th ACM SIGKDD int. conf. on Knowledge
-  discovery and data mining}, pages 367--371. ACM, 1999.
-
 \bibitem[Kifer et~al.(2004)Kifer, Ben-David, and Gehrke]{Kifer04}
 D.~Kifer, Sh. Ben-David, and J.~Gehrke.
 \newblock Detecting change in data streams.
 \newblock In \emph{Proc. of the 30th int. conf. on Very Large Data Bases (VLDB
   2004)}, pages 180--191, 2004.
-
-\bibitem[Kriegel et~al.(2007)Kriegel, Borgwardt, Kroger, Pryakhin, Schubert,
-  and Zimek]{Kriegel07}
-H.~Kriegel, K.~Borgwardt, P.~Kroger, A.~Pryakhin, M.~Schubert, and A.~Zimek.
-\newblock Future trends in data mining.
-\newblock \emph{Data Mining and Knowledge Discovery}, 15\penalty0 (1):\penalty0
-  87--97, 2007.
-
-\bibitem[Thrun et~al.(2006)Thrun, Montemerlo, Dahlkamp, Stavens, Aron, Diebel,
-  Fong, Gale, Halpenny, Hoffmann, Lau, Oakley, Palatucci, Pratt, Stang,
-  Strohband, Dupont, Jendrossek, Koelen, Markey, Rummel, van Niekerk, Jensen,
-  Alessandrini, Bradski, Davies, Ettinger, Kaehler, Nefian, and
-  Mahoney]{Thrun06}
-S.~Thrun, M.~Montemerlo, H.~Dahlkamp, D.~Stavens, A.~Aron, J.~Diebel, P.~Fong,
-  J.~Gale, M.~Halpenny, G.~Hoffmann, K.~Lau, C.~Oakley, M.~Palatucci, V.~Pratt,
-  P.~Stang, S.~Strohband, C.~Dupont, L.-E. Jendrossek, C.~Koelen, C.~Markey,
-  C.~Rummel, J.~van Niekerk, E.~Jensen, P.~Alessandrini, G.~Bradski, B.~Davies,
-  S.~Ettinger, A.~Kaehler, A.~Nefian, and P.~Mahoney.
-\newblock Winning the darpa grand challenge.
-\newblock \emph{Journal of Field Robotics}, 23\penalty0 (9):\penalty0 661--692,
-  2006.
-
-\bibitem[Webb et~al.(2001)Webb, Pazzani, and Billsus]{Webb01}
-G.~Webb, M.~Pazzani, and D.~Billsus.
-\newblock Machine learning for user modeling.
-\newblock \emph{User Modeling and User-Adapted Interaction}, 11\penalty0
-  (1-2):\penalty0 19--29, 2001.
 
 \end{thebibliography}

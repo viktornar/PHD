@@ -23,7 +23,7 @@
 \newtheorem{theorem}[claim]{Theorem}
 \newtheorem{lemma}[claim]{Lemma}
 \newproclaim{definition}{claim}{Definition}
-\newproclaim{example}{claim}{Example}
+% \newproclaim{example}{claim}{Example}
 \newproclaim{remark}{claim}{Remark}
 \newproclaim{notation}{claim}{Notation}
 \newenvironment{proof}{\invardinti{Proof.}\global\finishedfalse]}{\finish\atstumti}
@@ -36,6 +36,8 @@
 \newcommand{\allmoodsB}{\ensuremath{:\mkern-4mu-\mkern-3mu\allmoodslipsB}}
 \newcommand{\allmoodslipsA}{\ensuremath{)\mkern-7.3mu|\mkern-7mu(}}
 \newcommand{\allmoodslipsB}{\ensuremath{)\mkern-4.8mu|\mkern-4.4mu(}}
+
+\newtheorem{example}{Example}[section]
 
 \newenvironment{Abstract}{%
 	\begin{center}

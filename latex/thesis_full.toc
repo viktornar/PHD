@@ -1,13 +1,26 @@
 \babel@toc {british}{}
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Notation}{vi}{section*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Application Examples}{1}{section.1.1}%
-\contentsline {chapter}{\numberline {2}The Context of a Concept Drift Problem}{4}{chapter.2}%
-\contentsline {chapter}{\numberline {A}Algorithms}{5}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Derivations and Computation Details}{6}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Change Detection Using Hotelling T-test}{6}{section.B.1}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{8}{section*.7}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Publications by the Author}{10}{appendix*.8}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Curriculum Vitae}{11}{Item.4}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Vocabulary - \v {Z}odyn\.elis}{12}{appendix*.12}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Summary in Lithuanian (Santrauka)}{13}{appendix*.13}%
+\contentsline {section}{\numberline {1.1}Research problem}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Relevance of the work}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Object of research}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Study objective}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Work tasks}{4}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Research methodology}{5}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Scientific novelty of the work and its significance}{5}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Practical significance of the work results}{5}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Defensive statements}{6}{section.1.9}%
+\contentsline {chapter}{\numberline {2}Application of remote sensing systems for assessment and prediction of different environmental risks}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Application of remote sensing data to the environment}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}ESO (European Space Agency) is developing a Sentinel satellite system under the Copernicus program}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Sentinel passive and active remote sensing systems}{14}{section.2.3}%
+\contentsline {chapter}{\numberline {A}Algorithms}{17}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Derivations and Computation Details}{18}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Change Detection Using Hotelling T-test}{18}{section.B.1}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{20}{section*.7}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Publications by the Author}{21}{appendix*.8}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Curriculum Vitae}{22}{Item.4}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Vocabulary - \v {Z}odyn\.elis}{23}{appendix*.12}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Summary in Lithuanian (Santrauka)}{24}{appendix*.13}%
+\enlargethispage {2\baselineskip }
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Index}{25}{section*.15}%
