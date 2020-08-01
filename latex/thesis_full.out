@@ -9,16 +9,24 @@
 \BOOKMARK [1][]{section.1.7}{1.7 Scientific novelty of the work and its significance}{chapter.1}% 9
 \BOOKMARK [1][]{section.1.8}{1.8 Practical significance of the work results}{chapter.1}% 10
 \BOOKMARK [1][]{section.1.9}{1.9 Defensive statements}{chapter.1}% 11
-\BOOKMARK [0][]{chapter.2}{2 Application of remote sensing systems for assessment and prediction of different environmental risks}{}% 12
+\BOOKMARK [0][]{chapter.2}{2 Application of remote sensing systems for assessment and prediction of fire risks}{}% 12
 \BOOKMARK [1][]{section.2.1}{2.1 Application of remote sensing data to the environment}{chapter.2}% 13
-\BOOKMARK [1][]{section.2.2}{2.2 ESO \(European Space Agency\) is developing a Sentinel satellite system under the Copernicus program}{chapter.2}% 14
+\BOOKMARK [1][]{section.2.2}{2.2 Open remote sensing data source}{chapter.2}% 14
 \BOOKMARK [1][]{section.2.3}{2.3 Sentinel passive and active remote sensing systems}{chapter.2}% 15
-\BOOKMARK [0][]{appendix.A}{A Algorithms}{}% 16
-\BOOKMARK [0][]{appendix.B}{B Derivations and Computation Details}{}% 17
-\BOOKMARK [1][]{section.B.1}{B.1 Change Detection Using Hotelling T-test}{appendix.B}% 18
-\BOOKMARK [0][]{section*.7}{ Bibliography}{}% 19
-\BOOKMARK [0][]{appendix*.8}{ Publications by the Author}{}% 20
-\BOOKMARK [0][]{Item.4}{ Curriculum Vitae}{}% 21
-\BOOKMARK [0][]{appendix*.12}{ Vocabulary - \231odynelis}{}% 22
-\BOOKMARK [0][]{appendix*.13}{ Summary in Lithuanian \(Santrauka\)}{}% 23
-\BOOKMARK [0][]{section*.15}{ Index}{}% 24
+\BOOKMARK [1][]{section.2.4}{2.4 Fire, wildfire and fire risk descriptions}{chapter.2}% 16
+\BOOKMARK [1][]{section.2.5}{2.5 Forest Fire Risk Assessment}{chapter.2}% 17
+\BOOKMARK [1][]{section.2.6}{2.6 Forest fire risk indices}{chapter.2}% 18
+\BOOKMARK [1][]{section.2.7}{2.7 Meteorological derived fire risk indices}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.7.1}{2.7.1 Canadian Fire Weather Index \(FWI\)}{section.2.7}% 20
+\BOOKMARK [2][-]{subsection.2.7.2}{2.7.2 The Portuguese index}{section.2.7}% 21
+\BOOKMARK [2][-]{subsection.2.7.3}{2.7.3 The Spanish ICONA method}{section.2.7}% 22
+\BOOKMARK [2][-]{subsection.2.7.4}{2.7.4 The Sol Numerical Risk}{section.2.7}% 23
+\BOOKMARK [0][]{appendix.A}{A Algorithms}{}% 24
+\BOOKMARK [0][]{appendix.B}{B Derivations and Computation Details}{}% 25
+\BOOKMARK [1][]{section.B.1}{B.1 Change Detection Using Hotelling T-test}{appendix.B}% 26
+\BOOKMARK [0][]{section*.7}{ Bibliography}{}% 27
+\BOOKMARK [0][]{appendix*.8}{ Publications by the Author}{}% 28
+\BOOKMARK [0][]{Item.4}{ Curriculum Vitae}{}% 29
+\BOOKMARK [0][]{appendix*.12}{ Vocabulary - \231odynelis}{}% 30
+\BOOKMARK [0][]{appendix*.13}{ Summary in Lithuanian \(Santrauka\)}{}% 31
+\BOOKMARK [0][]{section*.15}{ Index}{}% 32

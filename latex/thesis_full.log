@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  30 JUL 2020 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  31 JUL 2020 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -762,10 +762,17 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 ) (./macros/headings.tex)) (./thesis_full.aux
 (./title/titlepage.aux) (./acknowledgements/acknowledgements.aux)
 (./notation/notation.aux) (./chapter_1/chapter_1.aux)
-(./chapter_2/chapter_2.aux) (./appendix_2/appendix_2.aux)
-(./appendix_3/appendix_3.aux) (./bibliography/bibliography.aux)
-(./publications/publications.aux) (./cv/cv.aux) (./vocabulary/vocabulary.aux)
-(./summary/summary_lt.aux) (./index/index.aux))
+(./chapter_2/chapter_2.aux
+
+LaTeX Warning: Label `fig:copernicus_hub' multiply defined.
+
+
+LaTeX Warning: Label `fig:copernicus_hub' multiply defined.
+
+) (./appendix_2/appendix_2.aux) (./appendix_3/appendix_3.aux)
+(./bibliography/bibliography.aux) (./publications/publications.aux)
+(./cv/cv.aux) (./vocabulary/vocabulary.aux) (./summary/summary_lt.aux)
+(./index/index.aux))
 \openout1 = `thesis_full.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -919,16 +926,19 @@ Package xypdf Info: Line width: 0.47998pt on input line 7.
 
 
 ] (./contents/toc.tex
-(./thesis_full.toc)
+(./thesis_full.toc [5
+
+])
 \tf@toc=\write6
 \openout6 = `thesis_full.toc'.
 
-) [5
-
-]
+) [6]
 \openout2 = `notation/notation.aux'.
 
- (./notation/notation.tex) [6
+ (./notation/notation.tex) [7
+
+
+] [8
 
 
 ]
@@ -938,8 +948,6 @@ Package xypdf Info: Line width: 0.47998pt on input line 7.
 (./chapter_1/chapter_1.tex
 Chapter 1.
 [1
-
-
 
 
 ] [2] [3]
@@ -958,31 +966,31 @@ Chapter 2.
 
 
 ] [8] [9] [10] [11]
-<images/copernicus_hub.png, id=213, 1069.9975pt x 667.49374pt>
+<images/copernicus_hub.png, id=261, 1069.9975pt x 667.49374pt>
 File: images/copernicus_hub.png Graphic file (type png)
 <use images/copernicus_hub.png>
 Package pdftex.def Info: images/copernicus_hub.png  used on input line 91.
 (pdftex.def)             Requested size: 332.32945pt x 207.31815pt.
- [12]
-<images/sentinel-2_data_formats.jpg, id=220, 602.25pt x 403.5075pt>
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.97 	
+       <./images/copernicus_hub.png>]
+<images/sentinel-2_data_formats.jpg, id=270, 602.25pt x 403.5075pt>
 File: images/sentinel-2_data_formats.jpg Graphic file (type jpg)
 <use images/sentinel-2_data_formats.jpg>
 Package pdftex.def Info: images/sentinel-2_data_formats.jpg  used on input line
  102.
 (pdftex.def)             Requested size: 332.32945pt x 222.66866pt.
  [13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-1}) has been already used, duplicate ignored
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.108 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-2.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.108 
-       <./images/copernicus_hub.png> <./images/sentinel-2_data_formats.jpg>]
+l.112 	
+        <./images/sentinel-2_data_formats.jpg>]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 12
 5.
 
@@ -1024,18 +1032,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.190 		
-        ]) [16pdfTeX warning (ext4): destination with the same identifier (name
-{table.2.2}) has been already used, duplicate ignored
+        ] [16pdfTeX warning (ext4): destination with the same identifier (name{
+table.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.30 \include{chapter_2/chapter_2}
-                                  ]
+l.195 	
+       ] [17]
+<images/fire_types.png, id=301, 1180.41pt x 734.745pt>
+File: images/fire_types.png Graphic file (type png)
+<use images/fire_types.png>
+Package pdftex.def Info: images/fire_types.png  used on input line 208.
+(pdftex.def)             Requested size: 373.86668pt x 232.71277pt.
+ [18] [19pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.2.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.215 	
+        <./images/fire_types.png>]
+<images/fire_assesment.png, id=312, 476.78125pt x 445.665pt>
+File: images/fire_assesment.png Graphic file (type png)
+<use images/fire_assesment.png>
+Package pdftex.def Info: images/fire_assesment.png  used on input line 230.
+(pdftex.def)             Requested size: 332.32945pt x 310.65771pt.
+ [20] [21pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.2.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.245 	
+        <./images/fire_assesment.png>]
+<images/fire_risk_indices.png, id=323, 596.2275pt x 487.8225pt>
+File: images/fire_risk_indices.png Graphic file (type png)
+<use images/fire_risk_indices.png>
+Package pdftex.def Info: images/fire_risk_indices.png  used on input line 255.
+(pdftex.def)             Requested size: 332.32945pt x 271.90588pt.
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.262 	
+        <./images/fire_risk_indices.png>] [23] [24] [25]) [26]
 \openout2 = `appendix_2/appendix_2.aux'.
 
- (./appendix_2/appendix_2.tex
+
+(./appendix_2/appendix_2.tex
 Appendix A.
-) [17
+) [27
 
 
 
@@ -1044,7 +1089,7 @@ Appendix A.
 
  (./appendix_3/appendix_3.tex
 Appendix B.
-[18
+[28
 
 
 
@@ -1055,12 +1100,12 @@ mr/m/n/12 = [][]  []  [] \OML/cmm/m/it/12 :$
  []
 
 
-LaTeX Warning: Reference `condprob' on page 19 undefined on input line 30.
+LaTeX Warning: Reference `condprob' on page 29 undefined on input line 30.
 
-) [19]
+) [29]
 \openout2 = `bibliography/bibliography.aux'.
 
- (./bibliography/bibliography.tex (./thesis_full.bbl)) [20
+ (./bibliography/bibliography.tex (./thesis_full.bbl)) [30
 
 
 
@@ -1069,14 +1114,14 @@ LaTeX Warning: Reference `condprob' on page 19 undefined on input line 30.
 \openout2 = `publications/publications.aux'.
 
 
-(./publications/publications.tex) [21
+(./publications/publications.tex) [31
 
 
 
 ]
 \openout2 = `cv/cv.aux'.
 
- (./cv/cv.tex) [22
+ (./cv/cv.tex) [32
 
 
 
@@ -1090,7 +1135,7 @@ Package hyperref Warning: Composite letter `\textdotaccent+e'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textdotaccent' on input line 1.
 
-) [23
+) [33
 
 
 
@@ -1103,14 +1148,14 @@ Overfull \hbox (10.52106pt too wide) in paragraph at lines 1--6
 i, kurie re-mi-asi kryptingu
  []
 
-)) [24
+)) [34
 
 
 
 ]
 \openout2 = `index/index.aux'.
 
- (./index/index.tex (./thesis_full.ind [25
+ (./index/index.tex (./thesis_full.ind [35
 
 
 
@@ -1128,10 +1173,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
 Package rerunfilecheck Info: File `thesis_full.out' has not changed.
-(rerunfilecheck)             Checksum: 17F69496F9CF0EB820E1BC8CC7DFF561;1792.
+(rerunfilecheck)             Checksum: 74A59CB9AFD2B03F9E08911B7645C0F8;2377.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
  )
@@ -1141,13 +1189,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
 ### simple group (level 1) entered at line 129 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15631 strings out of 481239
- 232544 string characters out of 5920377
- 632598 words of memory out of 5000000
- 30155 multiletter control sequences out of 15000+600000
- 559812 words of font info for 176 fonts, out of 8000000 for 9000
+ 15712 strings out of 481239
+ 233761 string characters out of 5920377
+ 631679 words of memory out of 5000000
+ 30183 multiletter control sequences out of 15000+600000
+ 562986 words of font info for 189 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,12n,48p,3272b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,13n,50p,3272b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -1159,10 +1207,10 @@ ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/cour
 ier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis_full.pdf (31 pages, 1392766 bytes).
+Output written on thesis_full.pdf (43 pages, 1922194 bytes).
 PDF statistics:
- 366 PDF objects out of 1000 (max. 8388607)
- 315 compressed objects within 4 object streams
- 82 named destinations out of 1000 (max. 500000)
- 14539 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 485 PDF objects out of 1000 (max. 8388607)
+ 415 compressed objects within 5 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 17178 words of extra memory for PDF output out of 17280 (max. 10000000)
 

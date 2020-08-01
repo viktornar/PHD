@@ -96,8 +96,7 @@ roughly stable behaviour in a short period.
 
 There are variables changing value almost continuously during the day and variables having a variation noticeable only over a long period of time; week, month or even years. Respectively, these variables were classified as short-term variables and long-term variables.
 
-Evapotranspiration, relative humidity, wind and air temperature furnish an example of variables clearly unsteady during the day. Fuel type, fire history, amount of population, topography of the territory, soil type and proximity of roads are variables with a
-roughly stable behaviour in a short period
+Evapotranspiration, relative humidity, wind and air temperature furnish an example of variables clearly unsteady during the day. Fuel type, fire history, amount of population, topography of the territory, soil type and proximity of roads are variables with a roughly stable behaviour in a short period:
 
 ![Fire assesments](../pictures/fire_assesment.png)
 
