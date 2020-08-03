@@ -258,14 +258,18 @@
 	\end{figure}
 
 \section{Meteorological derived fire risk indices}
-	Weather condition have a big impact for risk of wildfire. Depending on solar radiation  or wind speed and direction fire risk can increase dramatically. The most common meteorological derived fire risk indices used in Europe are:
+	Weather condition have a big impact for risk of wildfire. Depending on solar radiation  or wind speed and direction fire risk can increase dramatically. 
+	
+	Meteorological factors such as dew point, soil temperature, air temperature, humidity, precipitation and wind speed have
+	a major impact on the occurrence of forest fires as these climatic factors change with time and space rapidly (Liu et al., 2015).
+	
+	The most common meteorological derived fire risk indices used in Europe are:
 	
 	\begin{itemize}
 		\item The Canadian Fire Weather Index (FWI) (Van Wagner 1987).
 		\item The Portuguese index (Goncalves and Lourenco 1990).
 		\item The Spanish ICONA method - probability of ignition (ICONA 1993).
 		\item The Sol Numerical Risk (Drouet and Sol 1993).
-		\item Italian Fire Danger Index (Palmieri et al. 1993).
 	\end{itemize}
 
 	In most cases a correlative data analysis can be used to develop weather index that estimates the risk of forest fires in the interest area (Using correlative data analysis to develop weather index that estimates the risk of forest fires).
@@ -376,5 +380,59 @@
 	\begin{equation}
 	ROS =  180 \cdot e^{T 1714} \cdot  \tanh(\frac{100 - r}{150} \cdot \{1 + 2 \cdot  (0.8483 + \tanh(\frac{U}{30} - 1.25))\})
 	\end{equation}
+
+\section{Vegetation derived fire risk indices}
+	Vegetation indices are derived by remote sensing with the aim to attempt to evaluate the vegetation
+	stress. They are formed from combinations of several spectral values indicating the amount or vigor of the observed vegetation. The simplest form of vegetation index is a ratio between measurements of reflections in separate portions of the spectrum (Comission).
 	
+	Indices based on the vegetation stress estimate are called vegetation indices.
 	
+	A list of the most common indices of vegetation includes: 
+	
+	\begin{itemize}
+		\item The Normalized Difference Vegetation Index (NDVI).
+		\item The Soil-Adjusted Vegetation Index (SAVI).
+		\item Normalized Difference Water Index.
+		\item Relative Greenness Index.
+	\end{itemize}
+
+\subsection{The Normalized Difference Vegetation Index (NDVI)}
+	The NDVI is the most commonly used index for forest fire risk assessment in which the difference in reflectance is divided by the sum. This compensates for changing illumination conditions, surface slope, aspect, and other extraneous factors and produces a number between -1 and +1. The typical range of actual values is about 0.1 for bare soils to 0.9 for dense vegetation. NDVI is thought to be more sensitive to low levels of vegetative cover (Rouse et al. 1974).
+	
+	\begin{equation}
+	NDVI = \dfrac{\rho_{NIR} - \rho_{red}}{\rho_{NIR} + \rho_{red}}
+	\end{equation}
+	
+	where $\rho_{NIR}$ - near infrared band numerical value and $\rho_{red}$ - red band numerical representation.
+	
+\subsection{The Soil-Adjusted Vegetation Index (SAVI)}
+	This index resembles the NDVI with some added terms to adjust for different brightness of background soil. 
+	
+	\begin{equation}
+	SAVI = \dfrac{\rho_{NIR} - \rho_{red}}{\rho_{NIR} + \rho_{red} + L} \cdot (1 + L)
+	\end{equation}
+	
+	where $\rho_{NIR}$ - near infrared band numerical value and $\rho_{red}$ - red band numerical representation. In principle, the term L can vary from 0 to 1 depending on the amount of visible soil. The constant L is empirically determined to minimize the index sensitivity to soil background reflectance
+	variation. However, 0.5 works as a reasonable approximation for L when the amount of soil in the
+	scene is unknown and for intermediate vegetation cover ranges. The factor (1+L) set the range of
+	SAVI values between -1 and +1, as the range of the NDVI (Huete 1988).
+
+\subsection{Normalized Difference Water Index}
+	This index was proposed for remote sensing of vegetation liquid water from space as a complementary
+	index for NDVI. The formula Is equivalent to NDVI with the visible channel replaced by a short wave
+	infrared reflectance at 1.24 $\mu m$ (Gao 1996).
+	
+	\begin{equation}
+	NDWI = \dfrac{\rho_{NIR} - \rho_{SWIR}}{\rho_{NIR} + \rho_{SWIR} + L} \cdot (1 + L)
+	\end{equation}
+	
+	where $\rho_{NIR}$ - near infrared band numerical value and $\rho_{SWIR}$ - short wave infrared band numerical value.
+	
+\subsection{Relative Greenness Index}
+	It is defined as the relative variation of NDVI, with respect to its maximum and minimum of a long
+	period. In this way, the change due to the climatic conditions can be better discriminated, since the absolute value of the NDVI is sometimes more related to the landscape composition instead of seasonal
+	dynamism (Goward et al. 1991).
+	
+	\begin{equation}
+	RGI = \dfrac{NDVI_{i} - NDVI_{min}}{NDVI_{max} + NDVI_{min}} \cdot 1000
+	\end{equation}
