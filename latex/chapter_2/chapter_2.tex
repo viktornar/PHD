@@ -147,7 +147,7 @@
 		\end{center}
 	\end{table}
 
-	The resolution of the data received by the Sentinel-2A satellite depends on the color wave captured by the sensor and ranges from 10 m to 60 m (\ref{tab:sent-res})).
+	The resolution of the data received by the Sentinel-2A satellite depends on the color wave captured by the sensor and ranges from 10 m to 60 m (tab. \ref{tab:sent-res})).
 	
 	{\setlength{\extrarowheight}{15pt}%
 	\begin{table}[H]
@@ -436,3 +436,111 @@
 	\begin{equation}
 	RGI = \dfrac{NDVI_{i} - NDVI_{min}}{NDVI_{max} + NDVI_{min}} \cdot 1000
 	\end{equation}
+
+\subsection{Vegetation Moisture Stress}
+	For calculation of short term or dynamic components as fire risk indices, the moisture stress could be used.
+	The vegetation’s moisture content is another decisive factor for the outbreak and behaviour of a fire.
+	The Vegetation Indexes (VIs) are calculated based on the reflectance values in different
+	wavelengths, trying to ensure that atmospheric and ground influences are minimal. In this
+	paper, the NDII (Normalised Difference Infrared Index) was calculated first, and afterwards, the relative Vegetation Condition Index (VCI) can be calculated:
+	
+	\begin{equation}
+	VCI_{i}=[(NDII_{i} - NDII_{min})/(NDII_{max} - NDII_{min})] \cdot 100
+	\end{equation}
+	
+	where $VCI_{i}$ is the Vegetation Condition Index for each date; $NDII_{i}$ is the index for dryness on the date in question; $NDII_{min}$ is the index of minimum dryness and $NDII_{min}$ is the index of maximum dryness for given oeriod.
+
+\section{Processing of remote sensing data using distribution systems}
+	At present, remote sensing and GIS methods used to process remote sensing data are a powerful tool for studying, predicting and non-invasive monitoring of environmental change.
+	The term "remote sensing" is widely used to describe a method of collecting information about the Earth's surface without contact with it. The electromagnetic energy reflected or emitted during remote sensing is recorded by a sensor in the form of an image. These images are then processed and analyzed to obtain meaningful information about the objects and phenomena depicted. Remote sensing is a multi-stage process involving several components and the interactions between them. Remote sensing requires an energy source. Currently, two types of remote sensing sensors are used - passive and active. In terms of passive remote sensing, solar energy reaches the Earth, interacting with the atmosphere and objects on the Earth’s surface. The reflected part of this energy is received by the sensor, encoded by electrical signals and transmitted to the ground station. To become valuable, this data needs to be prepared, corrected, and improved. Further processing involves intensive decryption and analysis, which allows the data to be turned into meaningful information. Increasingly, remote sensing data is processed using so-called “learning systems,” where neural network methodologies create a system that can process large amounts of data automatically, without human intervention (P. Scheunders D. et al., 2017; Atharva Sharma et al., 2017).
+	
+	With active remote sensing, the sensor sends a signal (in the case of a satellite, generated radio waves) that is reflected from the earth's surface, interacting with objects on it, and returns to the sensor's recorder.
+	
+	Currently, passive remote sensing (using optical satellite imagery) is commonly used in conjunction with GIS to:
+
+	\begin{itemize}
+		\item Manage, monitor the consequences of natural disasters.
+		\item Anticipate the possible consequences of future natural disasters.
+	\end{itemize}
+	
+	Many tools and methods have been developed, in particular:
+	
+	\begin{itemize}
+		\item Land management.
+		\item Management and analysis of cultural and natural heritage areas.
+		\item In geology.
+		\item In hydrology.
+		\item In navigation.
+		\item In geodesy and cartography.
+	\end{itemize}
+
+	Many methodologies have been developed that are applicable to optical satellite imagery, but there are several problems with the application of passive remote sensing techniques:
+	
+	\begin{itemize}
+		\item There is no possibility to perform tests at any time of the day.
+		\item Weather conditions (cloudiness) limit the use of optical photographs.
+		\item Studies based on the optical properties of light rays (reflection, absorption, deflection) do not. \item Always show accurate results.
+	\end{itemize}
+
+	Some of these problems can be solved by using active remote sensing - radiometric satellite imagery:
+	
+	\begin{itemize}
+		\item Tests can be performed at any time of the day.
+		\item Weather conditions do not restrict the use of satellite imagery.
+		\item Radiometric photographs provide more accurate results.
+	\end{itemize}
+
+	The main disadvantage of using active remote sensing is that most methods and algorithms for processing radiometric images require larger computations, and the algorithms themselves are complex.
+	In order to process remote sensing data quickly and efficiently, it is necessary to apply distributed calculations:
+	
+	\begin{itemize}
+		\item Cluster of computers.
+		\item Cloud solutions;
+	\end{itemize}
+	
+	Many GIS software packages do not yet use the full capacity of computers to process remote sensing data. Modern processors are made up of cores that can process data in parallel, thus speeding up the processing of remote sensing data. The paper examines methods that allow the use of distributed computations, as well as a methodology to accelerate their processing independently of remote sensing data processing algorithms to provide real-time data that could be used to monitor and analyze environmental parameters (Michael McCool Arch D. et al. 2012).
+	
+	By accelerating the processing of remote sensing data, active satellite imagery can be adapted to detect the following phenomena:
+	
+	\begin{itemize}
+		\item Determination of water surface contamination by petroleum products using active remote sensing (Syntetic Aperture Radar).
+		\item Determination of water surface contamination with plastic (plastic products) using active remote sensing.
+		\item To monitor plastic contamination of the earth's surface using active remote sensing.
+		\item To assess the damage caused by a forest fire and to determine the direction of fire expansion.
+		\item Determination of nitrogen content in plants in order to reduce the use of fertilizers in crop production.
+		\item Determination of air pollution using active remote sensing.
+	\end{itemize}
+	
+	Remote sensing of satellite systems can provide ecologically sound long-term data sets suitable for analyzing changes in the ecosystem in a given area, in terms of structure, time and space, using appropriate risk assessment criteria. It is often complex and unclear how to select and effectively use remotely obtained data that could be used for environmental parameters and risk assessment (Jining Yana et al., 2017).
+	
+	Data obtained by remote sensing are often difficult to adapt due to the complexity of their processing. Often, satellite survey data cannot be processed fully automatically and their results must be interpreted with caution. It is for these reasons that it is often necessary to adapt processing and outcome evaluation methodologies to the area in which the research is conducted (Atharva Sharma et al., 2017).
+	Automatic interpretation of remote sensing images is a very complex problem and is fast becoming a necessity for many areas such as disaster management, forest mapping, urban planning, and more. Indeed, images with ever-increasing spatial resolution are becoming such that their adaptation becomes difficult without any computer aid (Hui He et al., 2016).
+	
+	Sometimes it is not possible to process existing data by adapting computer programs because they do not use the full capacity of the computer. Despite the fact that computer hardware is naturally parallel, computer architects decided 40 years ago to accept serial programming abstraction for programmers (fig. \ref{fig:seq_exec}).
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.9\linewidth]{images/seq_exec.png}
+		\caption{Serial execution of instructions on a simple processor}
+		\label{fig:seq_exec}
+	\end{figure}
+
+	Decades of computer architecture have been designed to maintain the illusion of series execution. In modern processors, much effort is put into translating serial programs into parallel form so that they can run efficiently using parallel hardware inside the processor. Unfortunately, despite the increase in the number of transistors provided for in Moore's Law (which states that the number of transistors that can be integrated into a chip doubles every two years), the need for parallelism is now so great that the illusion of serial computing cannot be maintained (Michael McCool Arch D. et al., 2012).
+	
+	Serial execution of computer operations is not optimized and GIS problem solving can be accelerated by applying algorithms that specify how operations should be performed in parallel.
+	
+	Parallel computations and data processing are several computational resources at the same time when those resources are automatically allocated to solve the problem:
+	
+	\begin{itemize}
+		\item The problem is broken down into several separate parts that can be solved at the same time.
+		\item Each part is divided into separate series of instructions.
+		\item Each instruction in the series is executed simultaneously using all computer resources in parallel.
+	\end{itemize}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.9\linewidth]{images/par_exec.png}
+		\caption{Parallel execution of instructions on a simple processor}
+		\label{fig:par_exec}
+	\end{figure}
+	

@@ -27,13 +27,15 @@
 \contentsline {subsection}{\numberline {2.8.2}The Soil-Adjusted Vegetation Index (SAVI)}{28}{subsection.2.8.2}%
 \contentsline {subsection}{\numberline {2.8.3}Normalized Difference Water Index}{28}{subsection.2.8.3}%
 \contentsline {subsection}{\numberline {2.8.4}Relative Greenness Index}{28}{subsection.2.8.4}%
-\contentsline {chapter}{\numberline {A}Algorithms}{30}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Derivations and Computation Details}{31}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Change Detection Using Hotelling T-test}{31}{section.B.1}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{33}{section*.7}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Publications by the Author}{34}{appendix*.8}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Curriculum Vitae}{35}{Item.4}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Vocabulary - \v {Z}odyn\.elis}{36}{appendix*.12}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Summary in Lithuanian (Santrauka)}{37}{appendix*.13}%
+\contentsline {subsection}{\numberline {2.8.5}Vegetation Moisture Stress}{29}{subsection.2.8.5}%
+\contentsline {section}{\numberline {2.9}Processing of remote sensing data using distribution systems}{29}{section.2.9}%
+\contentsline {chapter}{\numberline {A}Algorithms}{35}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Derivations and Computation Details}{36}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Change Detection Using Hotelling T-test}{36}{section.B.1}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{38}{section*.7}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Publications by the Author}{39}{appendix*.8}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Curriculum Vitae}{40}{Item.4}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Vocabulary - \v {Z}odyn\.elis}{41}{appendix*.12}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Summary in Lithuanian (Santrauka)}{42}{appendix*.13}%
 \enlargethispage {2\baselineskip }
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Index}{38}{section*.15}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Index}{43}{section*.15}%
