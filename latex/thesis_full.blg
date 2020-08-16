@@ -6,6 +6,7 @@ A level-1 auxiliary file: acknowledgements/acknowledgements.aux
 A level-1 auxiliary file: notation/notation.aux
 A level-1 auxiliary file: chapter_1/chapter_1.aux
 A level-1 auxiliary file: chapter_2/chapter_2.aux
+A level-1 auxiliary file: chapter_3/chapter_3.aux
 A level-1 auxiliary file: appendix_2/appendix_2.aux
 A level-1 auxiliary file: appendix_3/appendix_3.aux
 A level-1 auxiliary file: bibliography/bibliography.aux
@@ -15,45 +16,47 @@ A level-1 auxiliary file: cv/cv.aux
 A level-1 auxiliary file: vocabulary/vocabulary.aux
 A level-1 auxiliary file: summary/summary_lt.aux
 A level-1 auxiliary file: index/index.aux
+I found no \citation commands---while reading file thesis_full.aux
 Database file #1: thesis_bibliography.bib
-You've used 3 entries,
+You've used 0 entries,
             2773 wiz_defined-function locations,
-            625 strings with 5586 characters,
-and the built_in function-call counts, 1562 in all, are:
-= -- 146
-> -- 72
-< -- 4
-+ -- 24
-- -- 21
-* -- 104
-:= -- 227
-add.period$ -- 10
-call.type$ -- 3
-change.case$ -- 17
-chr.to.int$ -- 3
-cite$ -- 6
-duplicate$ -- 80
-empty$ -- 131
-format.name$ -- 28
-if$ -- 349
+            606 strings with 5178 characters,
+and the built_in function-call counts, 33 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 10
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 23
-num.names$ -- 12
-pop$ -- 34
+missing$ -- 0
+newline$ -- 8
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 13
+purify$ -- 0
 quote$ -- 0
-skip$ -- 71
+skip$ -- 1
 stack$ -- 0
-substring$ -- 62
-swap$ -- 22
-text.length$ -- 2
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 33
+type$ -- 0
 warning$ -- 0
-while$ -- 13
+while$ -- 0
 width$ -- 0
-write$ -- 47
+write$ -- 7
+(There was 1 error message)

@@ -32,8 +32,9 @@
 \usepackage{amsfonts}					% extra AMS math symbols
 \usepackage{amsmath}					% AMS 
 \usepackage[mathscr]{euscript}
-\usepackage{mdframed}
-
+\usepackage{mdframed}	
+\usepackage{listings}
+\usepackage{color}
 \usepackage{xcolor}				% colors support
 \renewcommand{\topfraction}{0.85}	%% 85% of page can contain figure
 \renewcommand{\textfraction}{0.1}	%% 10% of page can contain text
@@ -76,3 +77,24 @@
 % ----- macros ---------------------------------------------------------
 \input{macros/iz_macros.tex}
 \input{macros/headings.tex}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+	language=Java,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}

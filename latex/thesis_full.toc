@@ -29,13 +29,15 @@
 \contentsline {subsection}{\numberline {2.8.4}Relative Greenness Index}{28}{subsection.2.8.4}%
 \contentsline {subsection}{\numberline {2.8.5}Vegetation Moisture Stress}{29}{subsection.2.8.5}%
 \contentsline {section}{\numberline {2.9}Processing of remote sensing data using distribution systems}{29}{section.2.9}%
-\contentsline {chapter}{\numberline {A}Algorithms}{35}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Derivations and Computation Details}{36}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Change Detection Using Hotelling T-test}{36}{section.B.1}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{38}{section*.7}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Publications by the Author}{39}{appendix*.8}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Curriculum Vitae}{40}{Item.4}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Vocabulary - \v {Z}odyn\.elis}{41}{appendix*.12}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Summary in Lithuanian (Santrauka)}{42}{appendix*.13}%
+\contentsline {chapter}{\numberline {3}Predicting fire behavior and condition}{38}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Wildfire damage detection methodology using passive remote sensing data}{39}{section.3.1}%
+\contentsline {chapter}{\numberline {A}Algorithms}{43}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Derivations and Computation Details}{44}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Change Detection Using Hotelling T-test}{44}{section.B.1}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{45}{section*.7}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Publications by the Author}{46}{appendix*.8}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Curriculum Vitae}{48}{Item.3}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Vocabulary - \v {Z}odyn\.elis}{49}{appendix*.12}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Summary in Lithuanian (Santrauka)}{50}{appendix*.13}%
 \enlargethispage {2\baselineskip }
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Index}{43}{section*.15}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Index}{51}{section*.15}%

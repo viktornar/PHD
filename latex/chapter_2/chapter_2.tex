@@ -287,7 +287,7 @@
 	S-scale FWI is given bellow:
 
 	\begin{equation}
-	ln(s)=2.72[0.434lnB]^{0.647}
+	ln(s)=2.72 \cdot [0.434 \cdot lnB]^{0.647}
 	\end{equation}
 	
 	The Canadian model has been tested and adopted in New Zealand, Fiji, Alaska, Mexico, Chile, Argentina and Europe (Using correlative).
@@ -340,8 +340,8 @@
 	\begin{equation}
 	T_{soil}= \left\{
 	\begin{array}{lr}
-	 0.874 T -  0.189 U + 11.38, & Cc \leq 2 \\
-	 1.36 T - 1.422 Cc - 0.22 T_{dew} + 13.42, & Cc \geq 3
+	 0.874 \cdot T -  0.189 \cdot U + 11.38, & Cc \leq 2 \\
+	 1.36 \cdot T - 1.422 \cdot Cc - 0.22 \cdot T_{dew} + 13.42, & Cc \geq 3
 	\end{array} 
 	\right.
 	\end{equation}
@@ -520,7 +520,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.9\linewidth]{images/seq_exec.png}
+--		\includegraphics[width=0.9\linewidth]{images/seq_exec.png}
 		\caption{Serial execution of instructions on a simple processor}
 		\label{fig:seq_exec}
 	\end{figure}
@@ -543,4 +543,40 @@
 		\caption{Parallel execution of instructions on a simple processor}
 		\label{fig:par_exec}
 	\end{figure}
+
+	Increasingly, remote sensing data is being processed using modern distributed computational techniques and automated computational scripts written in interpretable programming languages (Python, R language) that use optimized libraries written in lower-level programming languages (C, C ++, Fortran).
+	
+	R-script programming language can be used for automated and distributed GIS data processing. R is a system of statistical analysis and graphing developed by Ross Ihaka and Robert Gentleman. R is software and language that is considered a dialect of the S language developed by AT\&T Bell Laboratories. It is a de facto data language scripting languages that can orchestrate very complex analytical data streams (pipelines) using different data types. R has many packages that can be used to write high quality code using the packages that are written in them. Most of the code in the R programming language can be optimized using vectorized data structures with methods implemented in C / C++ low lever programming languages. In most cases, programming languages are used in conjuction with other programming languages
+ 	
+ 	In most cases, parallel computations in the R programming language are realized using specific packages that simplify and solve parallelism. The most popular parallel R measures are snow, multicore, foreach, and rmpi. The first two of these are now part of the R core, which is named parallel (R-core. Package 'parallel', 2017). All four of the most popular packages mentioned earlier most commonly use the setter / getter (receiver) paradigm (Weston S. et al., 2017):
+	
+	\begin{itemize}
+		\item Data set up - the manager breaks down the specified calculation into parts and sends them to the workers.
+		\item Chunk computation - employees count each part of the operation and return the results to the manager.
+		\item Data Acquisition and Merge - The manager receives those results and combines them to solve the specified problem.
+	\end{itemize}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.9\linewidth]{images/parallel_execution_model.png}
+		\caption{setter / getter paradigm for realizing parallel data processing in R programming language}
+		\label{fig:par_exec_model}
+	\end{figure}
+
+	One of the simplest examples of how many kernel computations could be used in the R programming language is the computation of the NDVI index. Calculating NDVI is fairly straightforward and it can be very simple to parallelize by depicting how parallel calculations can speed up the processing of large amounts of remote sensing (Dorman M., 2014).
+	
+	When setting up parallel calculations, it is useful to know the number of processors or cores. Currently, almost all physical processors have two or more cores that run more or less independently (they can share a shared memory area and share RAM). However, in some processors, these kernels can perform multiple tasks on their own at the same time, and in some operating systems (e.g., Windows), there are logical processors that can exceed the number of kernels (Matloff N., 2015).
+	
+	In many cases, the detectCore () function can be used in an R programming language to try to determine the amount of CPU logical cores in a computer (Tjhi W. et al., 2017).
+	
+	As mentioned earlier, in many cases, the identifier and receiver paradigm is used in the following steps:
+	
+	\begin{itemize}
+		\item Determination of the number of logical cores.
+		\item Creating and registering a cluster that will use individual computer cores.
+		\item Creation of an employee (recipient of a task) responsible for the performance of a certain task.
+		\item Establishment of a manager (task sender) responsible for sending data to employees.
+	\end{itemize}
+
+	With cloud services that becomes more popular and effective for distrubuted computing the processing of large amounts of data can be realized using Amazon cloud services. In the R programming language, a seque module is implemented that allows distributed data processing using the resources of the Amazon cloud service provider. The main advantage of using cloud services is that it is not necessary to have your own hardware to realize large amounts of data processing at a given time (Sloan T. et al., 2016).
 	
