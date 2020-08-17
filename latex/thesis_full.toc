@@ -13,31 +13,32 @@
 \contentsline {chapter}{\numberline {2}Application of remote sensing systems for assessment and prediction of fire risks}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Application of remote sensing data to the environment}{7}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Open remote sensing data source}{11}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Sentinel passive and active remote sensing systems}{14}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Fire, wildfire and fire risk descriptions}{16}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Forest Fire Risk Assessment}{19}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Forest fire risk indices}{22}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Meteorological derived fire risk indices}{23}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Canadian Fire Weather Index (FWI)}{23}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}The Portuguese index}{24}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}The Spanish ICONA method}{24}{subsection.2.7.3}%
-\contentsline {subsection}{\numberline {2.7.4}The Sol Numerical Risk}{25}{subsection.2.7.4}%
-\contentsline {section}{\numberline {2.8}Vegetation derived fire risk indices}{27}{section.2.8}%
-\contentsline {subsection}{\numberline {2.8.1}The Normalized Difference Vegetation Index (NDVI)}{27}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2.8.2}The Soil-Adjusted Vegetation Index (SAVI)}{28}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2.8.3}Normalized Difference Water Index}{28}{subsection.2.8.3}%
-\contentsline {subsection}{\numberline {2.8.4}Relative Greenness Index}{28}{subsection.2.8.4}%
-\contentsline {subsection}{\numberline {2.8.5}Vegetation Moisture Stress}{29}{subsection.2.8.5}%
-\contentsline {section}{\numberline {2.9}Processing of remote sensing data using distribution systems}{29}{section.2.9}%
-\contentsline {chapter}{\numberline {3}Predicting fire behavior and condition}{38}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Wildfire damage detection methodology using passive remote sensing data}{39}{section.3.1}%
-\contentsline {chapter}{\numberline {A}Algorithms}{43}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Derivations and Computation Details}{44}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Change Detection Using Hotelling T-test}{44}{section.B.1}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{45}{section*.7}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Publications by the Author}{46}{appendix*.8}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Curriculum Vitae}{48}{Item.3}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Vocabulary - \v {Z}odyn\.elis}{49}{appendix*.12}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Summary in Lithuanian (Santrauka)}{50}{appendix*.13}%
+\contentsline {section}{\numberline {2.3}Google earth engine as a platform for accessing open remote sensing data}{14}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Sentinel passive and active remote sensing systems}{15}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Fire, wildfire and fire risk descriptions}{18}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Forest Fire Risk Assessment}{21}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Forest fire risk indices}{24}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Meteorological derived fire risk indices}{25}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Canadian Fire Weather Index (FWI)}{25}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}The Portuguese index}{26}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}The Spanish ICONA method}{26}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}The Sol Numerical Risk}{27}{subsection.2.8.4}%
+\contentsline {section}{\numberline {2.9}Vegetation derived fire risk indices}{29}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}The Normalized Difference Vegetation Index (NDVI)}{29}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9.2}The Soil-Adjusted Vegetation Index (SAVI)}{30}{subsection.2.9.2}%
+\contentsline {subsection}{\numberline {2.9.3}Normalized Difference Water Index}{30}{subsection.2.9.3}%
+\contentsline {subsection}{\numberline {2.9.4}Relative Greenness Index}{30}{subsection.2.9.4}%
+\contentsline {subsection}{\numberline {2.9.5}Vegetation Moisture Stress}{31}{subsection.2.9.5}%
+\contentsline {section}{\numberline {2.10}Processing of remote sensing data using distribution systems}{31}{section.2.10}%
+\contentsline {chapter}{\numberline {3}Predicting fire behavior and condition}{40}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Wildfire damage detection methodology using passive remote sensing data}{41}{section.3.1}%
+\contentsline {chapter}{\numberline {A}Algorithms}{45}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Derivations and Computation Details}{46}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Change Detection Using Hotelling T-test}{46}{section.B.1}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{47}{section*.7}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Publications by the Author}{48}{appendix*.8}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Curriculum Vitae}{50}{Item.3}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Vocabulary - \v {Z}odyn\.elis}{51}{appendix*.12}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Summary in Lithuanian (Santrauka)}{52}{appendix*.13}%
 \enlargethispage {2\baselineskip }
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Index}{51}{section*.15}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Index}{53}{section*.15}%

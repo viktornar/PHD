@@ -106,6 +106,39 @@
 
 	The Copernicus program, developed by ESA, provides high-quality and freely available Sentinel satellite data that can be adapted to meet a variety of GIS challenges. One example of such tasks is the identification of fire damage to the forest, the detection of oil spills at sea, the identification of plastic sites at sea. ESA provides all the tools needed for data retrieval (Coperinicus Hub data download portal) and GIS analysis (SNAP software). Sentinel data is high quality, frequently updated, and SNAP free software provides all the tools to perform GIS analysis for both scientific and commercial purposes.
 
+\section{Google earth engine as a platform for accessing open remote sensing data}
+	\textit{Google Earth Engine} is a cloud-based platform that allows users to have an easy access to a petabyte-scale archive of remote sensing data and run geospatial analysis on Google’s infrastructure. Currently, Google offers support only for \textit{Python}, \textit{JavaScript} or \textit{R}.
+	
+	Image preprocessing (i.e. download, reprojection, mosaicking, resize, bad pixels control and composite) has always been a time-consuming activity. Although \textit{R} offers incredible open-source "API packages" to easily get geospatial resources (modistsp, getSpatialData, elevation, landsat and so on), these still require that users count with competent computers (and high-end for users that want to analysis large areas). \textit{Google Earth Engine} democratizes access to high performance computing, enabling image preprocessing and analysis in the worst circumstances (e.g. in the middle of the Amazon with a Pentium IV laptop and weak internet access conditions).
+	
+	One of the way to use Google earth engine is to use python or javascript, but it is also possible to use R programming language with \textit{rgee} package. Such combination let to use python or javascript for quick prototyping and R programming language for statistical analysis and classification.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\linewidth]{images/gee.png}
+		\caption{Architecture of accessing mutiple sources of remote data by using \textit{Google Earth Engine}}
+		\label{fig:gee}
+	\end{figure}
+	
+	Below is provided an example of code  in R programming language for getting sentinel data of interest area:
+	
+	\begin{lstlisting}
+		ee_roi <- st_read(system.file("shape/nc.shp", package="sf")) %>%
+		st_geometry() %>%
+		sf_as_ee()
+		
+		ee_search_dataset() %>% 
+		ee_search_tagstitle(
+			"sentinel", "sr",logical_operator = "AND"
+		) %>% 
+		'['(4,) %>%
+		ee_search_display()
+	\end{lstlisting}
+	
+	The Earth Engine public data catalog is a multi-petabyte curated collection of widely used geospatial datasets. The bulk of the catalog is made up of Earth-observing remote sensing imagery, including the entire Landsat archive as well as complete archives of data from Sentinel-1 and Sentinel-2, but it also includes climate forecasts, land cover data and many other environmental, geophysical and socio-economic datasets. The catalog is continuously updated at a rate of nearly 6000 scenes per day from active missions, with a typical latency of about 24 h from scene acquisition time. Users can request the addition of new datasets to the public catalog, or they can upload their own private data via a REST interface using either browser-based or command-line tools and share with other users or groups as desired [Google Earth Engine: Planetary-scale geospatial analysis for everyone].
+	
+	
+
 \section{Sentinel passive and active remote sensing systems}
 	Remote sensing is the process of obtaining qualitative and quantitative data about a particular object without physical contact.
 	Remote sensing systems can be divided into passive and active systems using electromagnetic radiation:
