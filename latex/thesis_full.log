@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  17 AUG 2020 23:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  18 AUG 2020 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,9 +781,76 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks39
 \@floatcapt=\box64
 )
+(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip148
+\LTright=\skip149
+\LTpre=\skip150
+\LTpost=\skip151
+\LTchunksize=\count313
+\LTcapwidth=\dimen277
+\LT@head=\box65
+\LT@firsthead=\box66
+\LT@foot=\box67
+\LT@lastfoot=\box68
+\LT@cols=\count314
+\LT@rows=\count315
+\c@LT@tables=\count316
+\c@LT@chunks=\count317
+\LT@p@ftn=\toks40
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+\LTcapskip=\skip152
+\LTcapleft=\skip153
+\LTcapright=\skip154
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed) + inter
+mediate FMi
+
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box69
+\sift@deathcycles=\count318
+\@vwid@loff=\dimen278
+\@vwid@roff=\dimen279
+)
+\c@taburow=\count319
+\tabu@nbcols=\count320
+\tabu@cnt=\count321
+\tabu@Xcol=\count322
+\tabu@alloc=\count323
+\tabu@nested=\count324
+\tabu@target=\dimen280
+\tabu@spreadtarget=\dimen281
+\tabu@naturalX=\dimen282
+\tabucolX=\dimen283
+\tabu@Xsum=\dimen284
+\extrarowdepth=\dimen285
+\abovetabulinesep=\dimen286
+\belowtabulinesep=\dimen287
+\tabustrutrule=\dimen288
+\tabu@thebody=\toks41
+\tabu@footnotes=\toks42
+\tabu@box=\box70
+\tabu@arstrutbox=\box71
+\tabu@hleads=\box72
+\tabu@vleads=\box73
+\tabu@cellskip=\skip155
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xltabular/xltabular.sty
+Package: xltabular 2019/01/30 v0.2b `xltabular' package (hv,RN)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ltablex/ltablex.sty
+Package: ltablex 2014/08/13 v1.1 Modified tabularx
+))
 (./macros/iz_macros.tex
-\c@claim=\count313
-\c@example=\count314
+\c@claim=\count325
+\c@example=\count326
 ) (./macros/headings.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -855,7 +922,7 @@ LaTeX Font Info:    ... okay on input line 7.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box65
+\AtBeginShipoutBox=\box74
 Package hyperref Info: Link coloring OFF on input line 7.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -866,7 +933,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count315
+\c@section@level=\count327
 )
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
@@ -879,17 +946,17 @@ LaTeX Info: Redefining \nameref on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count316
-\scratchdimen=\dimen277
-\scratchbox=\box66
-\nofMPsegments=\count317
-\nofMParguments=\count318
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count319
-\MPscratchDim=\dimen278
-\MPnumerator=\count320
-\makeMPintoPDFobject=\count321
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count328
+\scratchdimen=\dimen289
+\scratchbox=\box75
+\nofMPsegments=\count329
+\nofMParguments=\count330
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count331
+\MPscratchDim=\dimen290
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
+\everyMPtoPDFconversion=\toks44
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -899,7 +966,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count322
+\c@lstlisting=\count334
 LaTeX Info: Redefining \microtypecontext on input line 7.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -936,8 +1003,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 Package xypdf Info: Line width: 0.47998pt on input line 7.
-\openout2 = `title/titlepage.aux'.
+LaTeX Info: Redefining \celsius on input line 7.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 7.
 
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 7.
+Package gensymb Info: Using \Omega for \ohm on input line 7.
+
+Package gensymb Warning: Not defining \micro.
+
+\openout2 = `title/titlepage.aux'.
 
 (./title/titlepage.tex [1
 
@@ -1042,132 +1119,302 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [15]
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[]|\T1/ppl/b/n/12 Nominal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[]|\T1/ppl/b/n/12 Temporal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+\T1/ppl/b/n/12 gran-u-lar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[]|\T1/ppl/b/n/12 Temporal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+[]|\T1/ppl/b/n/12 Spatial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|\T1/ppl/b/n/12 Nominal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|\T1/ppl/b/n/12 Temporal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\T1/ppl/b/n/12 gran-u-lar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|\T1/ppl/b/n/12 Temporal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+[]|\T1/ppl/b/n/12 Spatial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
+[]|\T1/ppl/m/n/12 (+20) Sentinel 1 A/B
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 168--168
+[]|\T1/ppl/m/n/12 (+20) MOD09 sur-face re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
+[]|\T1/ppl/m/n/12 (+20) 1 day/8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+[]|\T1/ppl/m/n/12 (+20) 1 day/8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+[]|\T1/ppl/m/n/12 (+20) MOD17 Gross
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]|\T1/ppl/m/n/12 (+20) MCD43 BRDF-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]|\T1/ppl/m/n/12 (+20) 1000/500
+ []
+
+
+Underfull \hbox (badness 7888) in paragraph at lines 176--176
+[]|\T1/ppl/m/n/12 (+20) 8 day/16
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 178--178
+[]|\T1/ppl/m/n/12 (+20) MCD45 thermal an-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
+[]|\T1/ppl/m/n/12 (+20) 15/30/90
+ []
+
+[15]
+Underfull \hbox (badness 3343) in paragraph at lines 187--187
+[]|\T1/ppl/m/n/12 (+20) USDA NAIP aer-ial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]|\T1/ppl/m/n/12 (+20) Sub-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+[]|\T1/ppl/m/n/12 (+20) United
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+[]|\T1/ppl/m/n/12 (+20) Non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]|\T1/ppl/m/n/12 (+20) Non-
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 197--197
+[]|\T1/ppl/m/n/12 (+20) UMD global forest
+ []
+
+
+Underfull \hbox (badness 6510) in paragraph at lines 198--198
+[]|\T1/ppl/m/n/12 (+20) JRC global sur-face
+ []
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 200--200
+[]|\T1/ppl/m/n/12 (+20) USDA NASS cro-p-
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 202--202
+[]|\T1/ppl/m/n/12 (+20) Global pre-cip-it-a-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+[]|\T1/ppl/m/n/12 (+20) North
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+[]|\T1/ppl/m/n/12 (+20) ORNL DAY-MET
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+[]|\T1/ppl/m/n/12 (+20) North
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 211--211
+[]|\T1/ppl/m/n/12 (+20) NCEP cli-mate fore-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+[]|\T1/ppl/m/n/12 (+20) North
+ []
+
+[17] [18] [19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 []|\T1/ppl/b/n/12 Coverage area,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 []|\T1/ppl/b/n/12 Spatial res-ol-u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 []|\T1/ppl/m/n/12 (+20) Interferometric
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 []|\T1/ppl/m/n/12 (+20) HHH, VV,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 []|\T1/ppl/m/n/12 (+20) Extra-Wide
  []
 
-[16] [17pdfTeX warning (ext4): destination with the same identifier (name{table
-.2.1}) has been already used, duplicate ignored
+[21] [22pdfTeX warning (ext4): destination with the same identifier (name{table
+.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.223 		
-        ] [18pdfTeX warning (ext4): destination with the same identifier (name{
-table.2.2}) has been already used, duplicate ignored
+l.306 		
+        ] [23pdfTeX warning (ext4): destination with the same identifier (name{
+table.2.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.228 	
-       ] [19]
-<images/fire_types.png, id=375, 1180.41pt x 734.745pt>
+l.311 	
+       ] [24]
+<images/fire_types.png, id=399, 1180.41pt x 734.745pt>
 File: images/fire_types.png Graphic file (type png)
 <use images/fire_types.png>
-Package pdftex.def Info: images/fire_types.png  used on input line 241.
+Package pdftex.def Info: images/fire_types.png  used on input line 324.
 (pdftex.def)             Requested size: 373.86668pt x 232.71277pt.
- [20] [21pdfTeX warning (ext4): destination with the same identifier (name{figu
+ [25] [26pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.2.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.248 	
+l.331 	
         <./images/fire_types.png>]
-<images/fire_assesment.png, id=386, 476.78125pt x 445.665pt>
+<images/fire_assesment.png, id=410, 476.78125pt x 445.665pt>
 File: images/fire_assesment.png Graphic file (type png)
 <use images/fire_assesment.png>
-Package pdftex.def Info: images/fire_assesment.png  used on input line 263.
+Package pdftex.def Info: images/fire_assesment.png  used on input line 346.
 (pdftex.def)             Requested size: 332.32945pt x 310.65771pt.
- [22] [23pdfTeX warning (ext4): destination with the same identifier (name{figu
+ [27] [28pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.2.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.278 	
+l.361 	
         <./images/fire_assesment.png>]
-<images/fire_risk_indices.png, id=398, 596.2275pt x 487.8225pt>
+<images/fire_risk_indices.png, id=421, 596.2275pt x 487.8225pt>
 File: images/fire_risk_indices.png Graphic file (type png)
 <use images/fire_risk_indices.png>
-Package pdftex.def Info: images/fire_risk_indices.png  used on input line 288.
+Package pdftex.def Info: images/fire_risk_indices.png  used on input line 371.
 (pdftex.def)             Requested size: 332.32945pt x 271.90588pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.296 	M
+l.379 	M
         eteorological factors such as dew point, soil temperature, air tempe...
- <./images/fire_risk_indices.png>] [25] [26] [27] [28] [29] [30] [31] [32]
-[33]
-Overfull \hbox (5.30447pt too wide) in paragraph at lines 540--541
+ <./images/fire_risk_indices.png>] [30] [31] [32] [33] [34] [35] [36] [37]
+[38]
+Overfull \hbox (5.30447pt too wide) in paragraph at lines 623--624
 []\T1/ppl/m/n/12 (-20) Determination of wa-ter sur-face con-tam-in-a-tion with 
 plastic (plastic products)
  []
 
-[34]
-<images/seq_exec.png, id=467, 811.03pt x 336.25626pt>
+[39]
+<images/seq_exec.png, id=490, 811.03pt x 336.25626pt>
 File: images/seq_exec.png Graphic file (type png)
 <use images/seq_exec.png>
-Package pdftex.def Info: images/seq_exec.png  used on input line 556.
+Package pdftex.def Info: images/seq_exec.png  used on input line 639.
 (pdftex.def)             Requested size: 373.86668pt x 155.00812pt.
- [35pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.568 		\item T
+l.651 		\item T
                he problem is broken down into several separate parts that ca...
  <./images/seq_exec.png>]
-<images/par_exec.png, id=475, 675.52374pt x 396.48125pt>
+<images/par_exec.png, id=497, 675.52374pt x 396.48125pt>
 File: images/par_exec.png Graphic file (type png)
 <use images/par_exec.png>
-Package pdftex.def Info: images/par_exec.png  used on input line 575.
+Package pdftex.def Info: images/par_exec.png  used on input line 658.
 (pdftex.def)             Requested size: 373.86668pt x 219.4326pt.
- [36pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [41pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.583  	
+l.666  	
          <./images/par_exec.png>]
-<images/parallel_execution_model.png, id=482, 671.50874pt x 652.4375pt>
+<images/parallel_execution_model.png, id=505, 671.50874pt x 652.4375pt>
 File: images/parallel_execution_model.png Graphic file (type png)
 <use images/parallel_execution_model.png>
 Package pdftex.def Info: images/parallel_execution_model.png  used on input lin
-e 594.
+e 677.
 (pdftex.def)             Requested size: 373.86668pt x 363.25197pt.
- [37] [38pdfTeX warning (ext4): destination with the same identifier (name{figu
+ [42] [43pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.2.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.602 	
-        <./images/parallel_execution_model.png>]) [39]
+l.685 	
+        <./images/parallel_execution_model.png>]) [44]
 \openout2 = `chapter_3/chapter_3.aux'.
 
 
 (./chapter_3/chapter_3.tex
 Chapter 3.
-[40
+[45
 
 
 
@@ -1178,32 +1425,32 @@ l/m/n/12 (-20) , $\OML/cmm/m/it/12 scl[]cloud[]high[]proba$\T1/ppl/m/n/12 (-20)
  , and $\OML/cmm/m/it/12 scl[]thin[]cirrus$ \T1/ppl/m/n/12 (-20) cloud
  []
 
-[41]
-<images/nbr_index.png, id=513, 686.565pt x 390.45876pt>
+[46]
+<images/nbr_index.png, id=535, 686.565pt x 390.45876pt>
 File: images/nbr_index.png Graphic file (type png)
 <use images/nbr_index.png>
 Package pdftex.def Info: images/nbr_index.png  used on input line 54.
 (pdftex.def)             Requested size: 373.86668pt x 212.62004pt.
- [42pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [47pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.67 	A
        fter performing raster algebra, the hydrological layer and raster dat...
- <./images/nbr_index.png>] [43pdfTeX warning (ext4): destination with the same 
+ <./images/nbr_index.png>] [48pdfTeX warning (ext4): destination with the same 
 identifier (name{table.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.109 	
        ]
-<images/dnbr.png, id=532, 521.95pt x 549.05125pt>
+<images/dnbr.png, id=555, 521.95pt x 549.05125pt>
 File: images/dnbr.png Graphic file (type png)
 <use images/dnbr.png>
 Package pdftex.def Info: images/dnbr.png  used on input line 112.
 (pdftex.def)             Requested size: 373.86668pt x 393.28078pt.
-) [44pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+) [49pdfTeX warning (ext4): destination with the same identifier (name{figure.3
 .2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1215,7 +1462,7 @@ l.31 \include{chapter_3/chapter_3}
 
 (./appendix_2/appendix_2.tex
 Appendix A.
-) [45
+) [50
 
 
 
@@ -1224,7 +1471,7 @@ Appendix A.
 
  (./appendix_3/appendix_3.tex
 Appendix B.
-) [46
+) [51
 
 
 
@@ -1235,7 +1482,7 @@ Appendix B.
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
-)) [47
+)) [52
 
 
 
@@ -1249,14 +1496,14 @@ Overfull \hbox (4.37567pt too wide) in paragraph at lines 19--20
 im[] duo-menis = Burned
  []
 
-[48
+[53
 
 
 
-]) [49]
+]) [54]
 \openout2 = `cv/cv.aux'.
 
- (./cv/cv.tex) [50
+ (./cv/cv.tex) [55
 
 
 
@@ -1269,14 +1516,14 @@ Package hyperref Warning: Composite letter `\textdotaccent+e'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textdotaccent' on input line 1.
 
-) [51
+) [56
 
 
 
 ]
 \openout2 = `summary/summary_lt.aux'.
 
- (./summary/summary_lt.tex (./summary/summary_text_lt.tex)) [52
+ (./summary/summary_lt.tex (./summary/summary_text_lt.tex)) [57
 
 
 
@@ -1284,7 +1531,7 @@ Package hyperref Warning: Composite letter `\textdotaccent+e'
 \openout2 = `index/index.aux'.
 
 
-(./index/index.tex (./thesis_full.ind [53
+(./index/index.tex (./thesis_full.ind [58
 
 
 
@@ -1310,20 +1557,21 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  )
-(\end occurred inside a group at level 3)
+(\end occurred inside a group at level 4)
 
-### simple group (level 3) entered at line 81 ({)
-### simple group (level 2) entered at line 185 ({)
-### simple group (level 1) entered at line 162 ({)
+### simple group (level 4) entered at line 81 ({)
+### simple group (level 3) entered at line 268 ({)
+### simple group (level 2) entered at line 245 ({)
+### simple group (level 1) entered at line 140 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17517 strings out of 481239
- 257734 string characters out of 5920377
- 821355 words of memory out of 5000000
- 31891 multiletter control sequences out of 15000+600000
+ 18453 strings out of 481239
+ 271294 string characters out of 5920377
+ 861864 words of memory out of 5000000
+ 32795 multiletter control sequences out of 15000+600000
  566104 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,13n,51p,3272b,1193s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,13n,51p,3272b,1229s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -1336,10 +1584,10 @@ msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucr
 r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis_full.pdf (61 pages, 2793227 bytes).
+Output written on thesis_full.pdf (66 pages, 2802359 bytes).
 PDF statistics:
- 666 PDF objects out of 1000 (max. 8388607)
- 564 compressed objects within 6 object streams
- 168 named destinations out of 1000 (max. 500000)
+ 689 PDF objects out of 1000 (max. 8388607)
+ 582 compressed objects within 6 object streams
+ 174 named destinations out of 1000 (max. 500000)
  20360 words of extra memory for PDF output out of 20736 (max. 10000000)
 
