@@ -1,12 +1,5 @@
 % Encoding: UTF-8
 
-@Article{sss2015,
-  author       = {sss},
-  date         = {2015},
-  journaltitle = {sss},
-  title        = {sss},
-}
-
 @Article{Ma2015,
   author = {Yan Ma, Haiping Wub, Lizhe Wang, Bormin Huang, Rajiv Ranjand, Albert Zomaya, Wei Jie},
   date   = {2015},
@@ -853,5 +846,3 @@
   date   = {2020},
   title  = {rgee: An R package for interacting with Google EarthEngine},
 }
-
-@Comment{jabref-meta: databaseType:biblatex;}

@@ -1,8 +1,22 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Myoung-Young~Choi()]{Choi2020}
+Myoung-Young Choi Sunghae~Jun Myoung-Young~Choi, Sunghae~Jun.
+\newblock Fire risk assessment models using statistical machine learning and
+  optimized risk indexing.
+
+\bibitem[N.()]{Matloff2015}
+Matloff N.
+\newblock \emph{Parallel Computing for Data Science: With Examples in R, C++
+  and CUDA.}
+
+\bibitem[Tjhi~W.()]{Tjhi2015}
+Lim~A. Tjhi~W.
+\newblock \emph{R High Performance Programming.}
 
 \end{thebibliography}

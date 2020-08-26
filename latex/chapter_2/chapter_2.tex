@@ -10,11 +10,10 @@
 \begin{itemize}
 	\item Wildfire prevention.
 	\item Wildfire damage assessment.
-	\item Optimization of nitrogen fertilization.
 	\item Etc.
 \end{itemize}
 
-	For the prevention and detection of forest fire damage, a relative normalized deployment index can be applied (N. V. Rodinov), distinguishing cloud cover and hydrology from the total data array.
+	For the prevention and detection of forest fire damage, a relative normalized deployment index can be applied (N. V. Rodinov. Et al., 2016), distinguishing cloud cover and hydrology from the total data array.
 
 	The so-called change detection methodology (CD) can be used to determine forest fire damage. Using the CD methodology, images of different time sections of the same area are usually compared (N. V. Rodinov. Et al., 2016). In order to reduce the images present in the triggers (cloudiness, hydrology), filters are applied to distinguish such triggers using pixel algebra. In this case, the normalized deployment index is calculated for images of different time sections of the same area by making a relative estimate - a relative normalized deployment index. Based on the obtained research results, a data model distinguishing the places where the forest may be affected or most affected is presented.
 	
@@ -107,6 +106,8 @@
 	The Copernicus program, developed by ESA, provides high-quality and freely available Sentinel satellite data that can be adapted to meet a variety of GIS challenges. One example of such tasks is the identification of fire damage to the forest, the detection of oil spills at sea, the identification of plastic sites at sea. ESA provides all the tools needed for data retrieval (Coperinicus Hub data download portal) and GIS analysis (SNAP software). Sentinel data is high quality, frequently updated, and SNAP free software provides all the tools to perform GIS analysis for both scientific and commercial purposes.
 
 \section{Google earth engine as a platform for accessing open remote sensing data}
+	At the same time, petabyte-scale archives of remote sensing data have become freely available from multiple agencies including NASA (Woodcock et al., 2008; Loveland and Dwyer, 2012; Nemani et al., 2011), as well as the ESA (Copernicus Data Access Policy, 2016). A wide variety of tools have been developed. Despite that we have a lot of resources and tools - it still requires considerable technical expertise and effort. Google Earth Engine is a cloud-based platform that makes it easy to access high-performance computing resources for processing very large geospatial datasets, without having to suffer the IT pains currently surrounding either (N. Gorelick, 2017).
+
 	\textit{Google Earth Engine} is a cloud-based platform that allows users to have an easy access to a petabyte-scale archive of remote sensing data and run geospatial analysis on Google’s infrastructure. Currently, Google offers support only for \textit{Python}, \textit{JavaScript} or \textit{R}.
 	
 	Image preprocessing (i.e. download, reprojection, mosaicking, resize, bad pixels control and composite) has always been a time-consuming activity. Although \textit{R} offers incredible open-source "API packages" to easily get geospatial resources (modistsp, getSpatialData, elevation, landsat and so on), these still require that users count with competent computers (and high-end for users that want to analysis large areas). \textit{Google Earth Engine} democratizes access to high performance computing, enabling image preprocessing and analysis in the worst circumstances (e.g. in the middle of the Amazon with a Pentium IV laptop and weak internet access conditions).
@@ -135,7 +136,7 @@
 		ee_search_display()
 	\end{lstlisting}
 	
-	The Earth Engine public data catalog is a multi-petabyte curated collection of widely used geospatial datasets. The bulk of the catalog is made up of Earth-observing remote sensing imagery, including the entire Landsat archive as well as complete archives of data from Sentinel-1 and Sentinel-2, but it also includes climate forecasts, land cover data and many other environmental, geophysical and socio-economic datasets (table \ref{tab:data_catalog_gee}). The catalog is continuously updated at a rate of nearly 6000 scenes per day from active missions, with a typical latency of about 24 h from scene acquisition time. Users can request the addition of new datasets to the public catalog, or they can upload their own private data via a REST interface using either browser-based or command-line tools and share with other users or groups as desired (Gorelick 2017).
+	The Earth Engine public data catalog is a multi-petabyte curated collection of widely used geospatial datasets. The bulk of the catalog is made up of Earth-observing remote sensing imagery, including the entire Landsat archive as well as complete archives of data from Sentinel-1 and Sentinel-2, but it also includes climate forecasts, land cover data and many other environmental, geophysical and socio-economic datasets (table \ref{tab:data_catalog_gee}). The catalog is continuously updated at a rate of nearly 6000 scenes per day from active missions, with a typical latency of about 24 h from scene acquisition time. Users can request the addition of new datasets to the public catalog, or they can upload their own private data via a REST interface using either browser-based or command-line tools and share with other users or groups as desired (N. Gorelick 2017).
 	
 	{\setlength{\extrarowheight}{15pt}
 	\begin{center}
@@ -357,7 +358,7 @@
 	\end{itemize}
 
 \section{Forest fire risk indices}
-	An index of risk describes a composite indicator that identifies countries at risk of humanitarian crisis and disaster that would overwhelm national response capacity and it permits to better mange and compare information than using values directly. The values of variables identified as indicators of risk are managed by mathematical expressions. Thus, the result of these expressions is considered in order to extract an index which quantifies the risk throughout a numerical scale.
+	An index of risk describes a composite indicator that identifies countries at risk of humanitarian crisis and disaster that would overwhelm national response capacity and it permits to better manage and compare information than using values directly. The values of variables identified as indicators of risk are managed by mathematical expressions. Thus, the result of these expressions is considered in order to extract an index which quantifies the risk throughout a numerical scale.
 	
 	The indices of wildfire risk can be several. For the sake of simplicity it can be classified in such way:
 	
@@ -399,7 +400,7 @@
 	B=0.1Rf(d)
 	\end{equation}
 	
-	Where B is the B-scale of FWI readjusted by the factor 0.1, R is the rainfall (mm) and f (d) is the fuel availability ($ft^2$). The final
+	where $B$ is the B-scale of FWI readjusted by the factor 0.1, $R$ is the rainfall (mm) and $f(d)$ is the fuel availability ($ft^2$). The final
 	S-scale FWI is given bellow:
 
 	\begin{equation}
@@ -681,9 +682,9 @@
 
 	One of the simplest examples of how many kernel computations could be used in the R programming language is the computation of the NDVI index. Calculating NDVI is fairly straightforward and it can be very simple to parallelize by depicting how parallel calculations can speed up the processing of large amounts of remote sensing (Dorman M., 2014).
 	
-	When setting up parallel calculations, it is useful to know the number of processors or cores. Currently, almost all physical processors have two or more cores that run more or less independently (they can share a shared memory area and share RAM). However, in some processors, these kernels can perform multiple tasks on their own at the same time, and in some operating systems (e.g., Windows), there are logical processors that can exceed the number of kernels (Matloff N., 2015).
+	When setting up parallel calculations, it is useful to know the number of processors or cores. Currently, almost all physical processors have two or more cores that run more or less independently (they can share a shared memory area and share RAM). However, in some processors, these kernels can perform multiple tasks on their own at the same time, and in some operating systems (e.g., Windows), there are logical processors that can exceed the number of kernels \cite{Matloff2015}.
 	
-	In many cases, the detectCore () function can be used in an R programming language to try to determine the amount of CPU logical cores in a computer (Tjhi W. et al., 2017).
+	In many cases, the $detectCore()$ function can be used in an R programming language to try to determine the amount of CPU logical cores in a computer \cite{Tjhi2015}.
 	
 	As mentioned earlier, in many cases, the identifier and receiver paradigm is used in the following steps:
 	
@@ -693,6 +694,17 @@
 		\item Creation of an employee (recipient of a task) responsible for the performance of a certain task.
 		\item Establishment of a manager (task sender) responsible for sending data to employees.
 	\end{itemize}
-
-	With cloud services that becomes more popular and effective for distrubuted computing the processing of large amounts of data can be realized using Amazon cloud services. In the R programming language, a seque module is implemented that allows distributed data processing using the resources of the Amazon cloud service provider. The main advantage of using cloud services is that it is not necessary to have your own hardware to realize large amounts of data processing at a given time (Sloan T. et al., 2016).
 	
+	With cloud services that becomes more popular and effective for distributed computing the processing of large amounts of data can be realized using Amazon cloud services. In the R programming language, a module is implemented that allows distributed data processing using the resources of the Amazon cloud service provider. The main advantage of using cloud services is that it is not necessary to have your own hardware to realize large amounts of data processing at a given time (Sloan T. et al., 2016).
+
+\section{Fire Risk Assessment Models Using Statistical Machine Learning}
+	
+	In the discrete probability distributions, Poisson and binomial distributions can be applied to analyze the fire occurrence data. In the proposed study, we focused on building a model for the possibility of fire, so we built a predictive model based on the binomial distribution. A random variable $Y$ is distributed to a binomial distribution with $n$ and $p$ when $Y$ is represented as follows \cite{Choi2020}
+	
+	\begin{equation}
+		P(Y = y) = \begin{pmatrix}
+			n \\ y
+		\end{pmatrix} \cdot p^{y}(1 - p)^{n-y}, y = 0, 1, ..., n
+	\end{equation}
+	
+	where n is the number of Bernoulli trials, and p is the probability of success. The expectation $E(Y)$ and variance $Var(Y)$ of $Y$ are $np$ and $np(1-p)$ respectively. Each y has a binary data value (1: occurred fire or 0: no occurred fire) representing whether a fire has occurred. So, we build a logistic regression model based on binary response variable $Y$ to forecast fire risk.
