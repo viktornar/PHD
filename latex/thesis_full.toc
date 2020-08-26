@@ -30,15 +30,15 @@
 \contentsline {subsection}{\numberline {2.9.4}Relative Greenness Index}{35}{subsection.2.9.4}%
 \contentsline {subsection}{\numberline {2.9.5}Vegetation Moisture Stress}{36}{subsection.2.9.5}%
 \contentsline {section}{\numberline {2.10}Processing of remote sensing data using distribution systems}{36}{section.2.10}%
-\contentsline {chapter}{\numberline {3}Predicting fire behavior and condition}{45}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Damage detection and predicting fire behavior and condition}{45}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Wildfire damage detection methodology using passive remote sensing data}{46}{section.3.1}%
-\contentsline {chapter}{\numberline {A}Algorithms}{50}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Derivations and Computation Details}{51}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Change Detection Using Hotelling T-test}{51}{section.B.1}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{52}{section*.7}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Publications by the Author}{53}{appendix*.8}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Curriculum Vitae}{55}{Item.3}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Vocabulary - \v {Z}odyn\.elis}{56}{appendix*.12}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Summary in Lithuanian (Santrauka)}{57}{appendix*.13}%
+\contentsline {chapter}{\numberline {A}Algorithms}{51}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Derivations and Computation Details}{52}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Change Detection Using Hotelling T-test}{52}{section.B.1}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{53}{section*.7}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Publications by the Author}{54}{appendix*.8}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Curriculum Vitae}{56}{Item.3}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Vocabulary - \v {Z}odyn\.elis}{57}{appendix*.12}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Summary in Lithuanian (Santrauka)}{58}{appendix*.13}%
 \enlargethispage {2\baselineskip }
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Index}{58}{section*.15}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Index}{59}{section*.15}%
