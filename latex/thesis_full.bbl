@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{4}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -15,8 +15,14 @@ Matloff N.
 \newblock \emph{Parallel Computing for Data Science: With Examples in R, C++
   and CUDA.}
 
-\bibitem[Tjhi~W.()]{Tjhi2015}
-Lim~A. Tjhi~W.
+\bibitem[Parks()]{Parks2014}
+Dillon G. K. and Miller C. Parks, S. A.
+\newblock A new metric for quantifying burn severity: The relativized burn
+  ratio. remote sens.
+\newblock page 1827–1844.
+
+\bibitem[Tjhi W.()]{Tjhi2015}
+Lim~A. Tjhi W.
 \newblock \emph{R High Performance Programming.}
 
 \end{thebibliography}

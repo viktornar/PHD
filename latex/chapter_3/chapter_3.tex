@@ -9,7 +9,7 @@
 		\item Methods for interpreting the speed and intensity of a fire to obtain the distance, perimeter, area, and conditions under which stains and crowns occur. An important feature is the determination of the probable time of fire growth on a map over a period of time.
 	\end{itemize}
 
-	The diagram below shows the flow in information system to implement the fire behavior prediction (Choi 2020):
+	The diagram below shows the flow in information system to implement the fire behavior prediction (Choi et al. 2020):
 	
 	\begin{figure}[H]
 		\centering
@@ -92,19 +92,19 @@
 				\hline
 				\textbf{dNBR} & \textbf{Burn severity}\\
 				\hline
-				< -0.25 & High regrowth after fire \\
+				< -0.25 & Enhanced regrowth after fire, high \\
 				\hline
-				frpm -0.25 to -0.1 & Low regrowth after fire  \\
+				from -0.25 to -0.1 & Enhanced regrowth after fire, low  \\
 				\hline
-				from -0.1 to 0.1 & Not burned \\
+				from -0.1 to 0.1 & Unburned \\
 				\hline
-				from 0.1 to 0.27 & Low \\
+				from 0.1 to 0.27 & Low severity \\
 				\hline
-				from 0.27 to 0.44 & Medium low burn \\
+				from 0.27 to 0.44 & Moderate low severity \\
 				\hline
-				from 0.44 to 0.66 & Medium hight burn \\
+				from 0.44 to 0.66 & Moderate high severity \\
 				\hline
-				> 0.66 & Hight burn \\
+				> 0.66 & High severity \\
 				\hline
 			\end{tabularx}
 		\end{center}
@@ -115,6 +115,52 @@
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.9\linewidth]{images/dnbr.png}
-		\caption{Calculated $dNBR$ index}
+		\caption{Calculated $dNBR$ index as thematic map in \textit{QGIS} application}
 		\label{fig:dnbr}
 	\end{figure}
+
+	In order to quantify the area in each burn severity class, the statistics of the raster must be calculated. A transformation of the raster, so that all pixels are assigned one value for each burn severity class is necessary. in addition to this we excluded regrowth in the classification and applied the full table of classification (Table \ref{tab:nbi-res}).
+	
+	By using raster calculator every value in raster is multiplied by 1000 so it would be possible to apply classifier that will extract area for concrete burn area:
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.9\linewidth]{images/rules_classifier.png}
+		\caption{Rules for which pixels are attributed to which class}
+		\label{fig:dnbr}
+	\end{figure}
+
+	By using \textit{QGIS r.report} processing toolbox it is possible to get report with calculated area of fire severity:
+	
+	{\setlength{\extrarowheight}{15pt}%
+	\begin{table}[H]
+		\begin{center}
+			\caption{Report of rater statistic by severity level}
+			\label{tab:nbi-res}
+			\begin{tabularx}{\textwidth}{|X|X|}
+				\hline
+				\textbf{Severity level} & \textbf{Area, ha}\\
+				\hline
+				-2 & 6.787 \\
+				\hline
+				-1 & 350.308  \\
+				\hline
+				0 & 8553.005 \\
+				\hline
+				1 & 11969.245 \\
+				\hline
+				2 & 12354.006 \\
+				\hline
+				3 & 11388.385 \\
+				\hline
+				4 & 11010.700 \\
+				\hline
+			\end{tabularx}
+		\end{center}
+	\end{table}
+
+	
+	
+	
+	
+	

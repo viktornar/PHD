@@ -33,13 +33,13 @@
 \contentsline {section}{\numberline {2.11}Fire Risk Assessment Models Using Statistical Machine Learning}{44}{section.2.11}%
 \contentsline {chapter}{\numberline {3}Damage detection and predicting fire behavior and condition}{46}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Wildfire damage detection methodology using passive remote sensing data}{47}{section.3.1}%
-\contentsline {chapter}{\numberline {A}Algorithms}{52}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Derivations and Computation Details}{53}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Change Detection Using Hotelling T-test}{53}{section.B.1}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{54}{section*.7}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Publications by the Author}{55}{appendix*.8}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Curriculum Vitae}{57}{Item.3}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Vocabulary - \v {Z}odyn\.elis}{58}{appendix*.12}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Summary in Lithuanian (Santrauka)}{59}{appendix*.13}%
+\contentsline {chapter}{\numberline {A}Algorithms}{54}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Derivations and Computation Details}{55}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Change Detection Using Hotelling T-test}{55}{section.B.1}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliography}{56}{section*.7}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Publications by the Author}{57}{appendix*.8}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Curriculum Vitae}{59}{Item.3}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Vocabulary - \v {Z}odyn\.elis}{60}{appendix*.12}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Summary in Lithuanian (Santrauka)}{61}{appendix*.13}%
 \enlargethispage {2\baselineskip }
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Index}{60}{section*.15}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Index}{62}{section*.15}%

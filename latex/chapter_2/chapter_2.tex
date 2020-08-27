@@ -699,7 +699,7 @@
 
 \section{Fire Risk Assessment Models Using Statistical Machine Learning}
 	
-	In the discrete probability distributions, Poisson and binomial distributions can be applied to analyze the fire occurrence data. In the proposed study, we focused on building a model for the possibility of fire, so we built a predictive model based on the binomial distribution. A random variable $Y$ is distributed to a binomial distribution with $n$ and $p$ when $Y$ is represented as follows \cite{Choi2020}
+	In the discrete probability distributions, Poisson and binomial distributions can be applied to analyze the fire occurrence data. In the proposed study, we focused on building a model for the possibility of fire, so we built a predictive model based on the binomial distribution. A random variable $Y$ is distributed to a binomial distribution with $n$ and $p$ when $Y$ is represented as follows (Choi et al., 2020).
 	
 	\begin{equation}
 		P(Y = y) = \begin{pmatrix}
@@ -707,4 +707,12 @@
 		\end{pmatrix} \cdot p^{y}(1 - p)^{n-y}, y = 0, 1, ..., n
 	\end{equation}
 	
-	where n is the number of Bernoulli trials, and p is the probability of success. The expectation $E(Y)$ and variance $Var(Y)$ of $Y$ are $np$ and $np(1-p)$ respectively. Each y has a binary data value (1: occurred fire or 0: no occurred fire) representing whether a fire has occurred. So, we build a logistic regression model based on binary response variable $Y$ to forecast fire risk.
+	where n is the number of Bernoulli trials, and p is the probability of success. The expectation $E(Y)$ and variance $Var(Y)$ of $Y$ are $np$ and $np(1-p)$ respectively. Each y has a binary data value (1: occurred fire or 0: no occurred fire) representing whether a fire has occurred. So, we build a logistic regression model based on binary response variable $Y$ to forecast fire risk. The logistic regression can be calculated by (Cameron at el. 2013):
+	
+	\begin{equation}
+		\log (\dfrac {p}{1 - p}) = \upbeta_{0} + \upbeta_{1}x_{1} + ... +\upbeta_{k}x_{k} + \upepsilon
+	\end{equation}
+	
+	where $p$ is $P(Y = 1)$, which is the probability of occurred fire, and $\log (\dfrac {p}{1 - p})$  is  function of $p$.
+	$(x_{1}, x_{2}, ..., x_{k})$ are the explanatory variables that affect $Y$. In addition, error term $\upepsilon$ is followed to normal distribution with $mean=0$ and variance $=\upsigma^{2}$.
+	
