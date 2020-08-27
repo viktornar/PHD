@@ -1,10 +1,850 @@
 % Encoding: UTF-8
 
-@Article{sss2015,
-  author       = {sss},
+@Article{Ma2015,
+  author = {Yan Ma, Haiping Wub, Lizhe Wang, Bormin Huang, Rajiv Ranjand, Albert Zomaya, Wei Jie},
+  date   = {2015},
+  title  = {Remote sensing big data computing: Challenges and opportunities.},
+}
+
+@Article{Rodionova2016,
+  author       = {Н.В. Родионова},
+  date         = {2016},
+  journaltitle = {Современные проблемы дистанционного зондирования Земли из космоса.},
+  title        = {Возможность обнаружения гарей по разновременным радарным изображениям SENTINEL 1 для районов юга Сибири в сезон весна-лето 2015 г.},
+  issue        = {2},
+  pages        = {164-175},
+  version      = {13},
+}
+
+@Article{Apostol2014,
+  author = {Apostol, S., Viau, A.A., Tremblay, N., Briantais, J.M., Prasher, S., Parent, L.E., Moya, I.},
+  date   = {2014},
+  title  = {Laser-induced fluorescence signatures as a tool for remote monitoring of water and nitrogen stresses in plants.},
+}
+
+@Article{ZarateValdeza2015,
+  author = {Jose L. Zarate-Valdeza, Saiful Muhammad, Sebastian Sa, Bruce D. Lampinen, Patrick H. Brownb},
+  date   = {2015},
+  title  = {Light interception, leaf nitrogen and yield prediction in almonds: A case study.},
+}
+
+@Article{MunozHuerta2015,
+  author = {Rafael F. Muñoz-Huerta, Ramon G. Guevara-Gonzalez, Luis M. Contreras-Medina, Irineo Torres-Pacheco, Juan Prado-Olivarez, Rosalia V. Ocampo-Velazquez},
+  date   = {2015},
+  title  = {A Review of Methods for Sensing the Nitrogen Status in Plants: Advantages, Disadvantages and Recent Advances.},
+}
+
+@Article{Hashimoto2007,
+  author = {Hashimoto, M., Herai, Y., Nagaoka, T., Kouno, K.},
+  date   = {2007},
+  title  = {Nitrate leaching in granitic regosol as affected by N uptake and transpiration by corn. Soil Science and Plant.},
+}
+
+@Article{Chamodev2016,
+  author       = {Владимир Александрович Хамедов},
+  date         = {2016},
+  journaltitle = {Геодезия и маркшейдерия, Вестник СГУГиТ},
+  title        = {Сравнение методов обнаружения лесных гарей по оптическим и радиолокационным космическим снимкам},
+}
+
+@Article{MervFingas2014,
+  author = {Merv Fingas, Carl Brown},
+  date   = {2014},
+  title  = {Review of oil spill remote sensing.},
+}
+
+@Article{Fana2015,
+  author = {Jianchao Fana, Fengshou Zhangb, Dongzhi Zhaob, Jun Wanga},
+  date   = {2015},
+  title  = {Oil Spill Monitoring based on SAR Remote Sensing Imagery.},
+}
+
+@Article{ShungudzemwoyoP.Garabaa2017,
+  author = {Shungudzemwoyo P. Garabaa, Heidi M. Dierssena},
+  date   = {2017},
+  title  = {An airborne remote sensing case study of synthetic hydrocarbon detection using short wave infrared absorption features identified from marine- harvested macro- and microplastics},
+}
+
+@Article{GoddijnMurphya2017,
+  author = {Lonneke Goddijn-Murphya, Steef Petersb, Erik van Sebillec, Neil A. Jamesa, Stuart Gibba},
+  date   = {2017},
+  title  = {Concept for a hyperspectral remote sensing algorithm for floating marine macro plastics},
+}
+
+@WWW{SentinelData,
+  title = {https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/data-formats},
+  url   = {https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/data-formats},
+}
+
+@WWW{SnapWorkbook,
+  title = {Earth Observationfor Sustainable Development},
+  url   = {http://www.eo4sd-eastern.eu/sites/default/files/publications/snap_workbook_english.pdf},
+}
+
+@Article{Baldina2016,
+  author       = {Е.А. Балдина, К.А. Трошко, Н.Р. Николаев.},
+  date         = {2016},
+  journaltitle = {Известия высших учебных заведений. геодезия и аэрофотосъемка.},
+  title        = {Радиолокационные данные sentinel-1 и возможности их обработки для дешифрирования форм рельефа острова котельный.},
+}
+
+@Article{Du2016,
+  author       = {Du, Y; Zhang, Y; Ling, F; Wang, Q; Li, W; Li X},
+  date         = {2016},
+  journaltitle = {Remote Sens},
+  title        = {Water Bodies’ Mapping from Sentinel-2 Imagery with Modified Normalized Difference Water Index at 10-m Spatial Resolution Produced by Sharpening the SWIR Band},
+}
+
+@Article{Moser2017,
+  author = {P. Scheunders D. Tuia G. Moser},
+  date   = {2017},
+  title  = {Contributions of Machine Learning to Remote Sensing Data Analysis.},
+}
+
+@Article{AtharvaSharma2017,
+  author = {Atharva Sharma, Xiuwen Liu, Xiaojun Yang, DiShi},
+  date   = {2017},
+  title  = {A patch-based convolutional neural network for remote sensing image classification.},
+}
+
+@Book{Reinders2012,
+  author = {Michael McCool Arch D. Robison James Reinders},
+  date   = {2012},
+  title  = {Structured Parallel Programming.},
+}
+
+@Book{Yana2017,
+  author = {Jining Yana, Yan Ma, Lizhe Wang, Kim-Kwang Raymond Choo, Wei Jie},
+  date   = {2017},
+  title  = {A cloud-based remote sensing data production system.},
+}
+
+@Manual{Rcore.2017,
+  author = {R-core.},
+  date   = {2017},
+  title  = {Package ‘parallel’},
+}
+
+@Article{WestonS.2017,
+  author = {Weston S., Calaway R.},
+  date   = {2017},
+  title  = {Getting Started with doParallel and foreach.},
+}
+
+@Book{Sloan2016,
+  author = {Sloan T., Forster T., Troup E, Chapple R.},
+  date   = {2016},
+  title  = {Mastering Parallel Programming with R.},
+}
+
+@Book{Dorman2014,
+  author = {Dorman M.},
+  date   = {2014},
+  title  = {Learning R for Geospatial Analysis.},
+}
+
+@Book{Matloff2015,
+  author = {Matloff N.},
+  date   = {2015},
+  title  = {Parallel Computing for Data Science: With Examples in R, C++ and CUDA.},
+}
+
+@Book{Tjhi2015,
+  author = {Tjhi W., Lim A.,},
+  date   = {2015},
+  title  = {R High Performance Programming.},
+}
+
+@Article{Parks2014,
+  author = {Parks, S. A., Dillon, G. K. & Miller, C.},
+  date   = {2014},
+  title  = {A New Metric for Quantifying Burn Severity: The Relativized Burn Ratio. Remote Sens.},
+  pages  = {1827–1844},
+  series = {6},
+}
+
+@Article{Coppoletta2016,
+  author       = {Coppoletta, M; Merriam, K;Collins, B},
+  date         = {2016},
+  journaltitle = {Ecological Applications},
+  title        = {Post-fire vegetation and fuel development influences fire severity patterns in reburns.},
+  issue        = {26(3)},
+  pages        = {686–699},
+}
+
+@Article{Du2016a,
+  author = {Du, Y; Zhang, Y; Ling, F; Wang, Q; Li, W; Li X. Water Bodies},
+  date   = {2016},
+  title  = {Mapping from Sentinel-2 Imagery with Modified Normalized Difference Water Index at 10-m Spatial Resolution Produced by Sharpening the SWIR Band.},
+}
+
+@Article{Tonbul2016,
+  author       = {Tonbul, H; Kavzoglu, T; Kaya, S},
+  date         = {2016},
+  journaltitle = {The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  title        = {Assessment of fire severity and post-fire regeneration based on topographical features using multitemporal landsat imagery: a case study in Mersin, Turkey.},
+  issue        = {Volume XLI-B8},
+}
+
+@Article{Mera2014,
+  author = {David Mera, José M. Cotos, José Varela-Pet, Pablo G. Rodríguez, Andrés Caro},
+  date   = {2014},
+  title  = {Automatic decision support system based on SAR data for oil spill detection},
+}
+
+@Article{RubioCovarrubiasO.2015,
+  author = {Rubio-Covarrubias O. A., Brown P. H., Weinbaum S. A., Johnson R. S., Cabrera R. I.},
+  date   = {2015},
+  title  = {Evaluating foliar nitrogen compounds as indicators of nitrogen status in Prunus persica trees.},
+}
+
+@Book{HijmansJ.2017,
+  author = {Hijmans J. R.},
+  date   = {2017},
+  title  = {Introduction to the ‘raster’ package},
+}
+
+@Manual{Duveiller2015,
+  author = {Duveiller G.},
+  date   = {2015},
+  title  = {Some agricultural monitoring exercises with R.},
+}
+
+@Manual{RCore2017,
+  author = {R-Core},
+  date   = {2017},
+  title  = {Package ‘snow’.},
+}
+
+@Article{Fingas2016,
+  author = {Fingas M.},
+  date   = {2016},
+  title  = {Oil Spill Science and Technology},
+}
+
+@Article{GardnerD.2017,
+  author = {Gardner D., Nichols D.},
+  date   = {2017},
+  title  = {Multi-label Classification of Satellite Images with Deep Learning.},
+}
+
+@Article{MainiA.2014,
+  author = {Maini A., Agrawal V.},
+  date   = {2014},
+  title  = {Satellite Technology: Principles and Applications, 3rd Edition.},
+}
+
+@Article{ChellapaR.2013,
+  author = {Chellapa R., Theodoridis S.},
+  date   = {2013},
+  title  = {Academic Press Library in Signal Processing},
+}
+
+@Article{Jimenez2011,
+  author = {Jiménez S., Malo J., Gómez-Chova L., Tuia D., Camps-Valls G.},
+  date   = {2011},
+  title  = {Remote Sensing Image Processing.},
+}
+
+@Book{Farkas2017,
+  author = {Farkas G.},
+  date   = {2017},
+  title  = {Practical GIS.},
+}
+
+@Book{TjhiW.2015,
+  author = {Tjhi W., Lim A.},
+  date   = {2015},
+  title  = {R High Performance Programming.},
+}
+
+@Article{PanX.2018,
+  author = {Pan X., Zhao J},
+  date   = {2018},
+  title  = {High-Resolution Remote Sensing Image Classification Method Based on Convolutional Neural Network and Restricted Conditional Random Field.},
+}
+
+@Article{Haas2016,
+  author = {Haas J.},
+  date   = {2016},
+  title  = {Remote Sensing of Urbanization and Environmental Impacts.},
+}
+
+@Article{Miettinen2015,
+  author = {Miettinen J., Stibig H., Achard F., Hagolle O., Huc M.},
+  date   = {2015},
+  title  = {First Assessment on the Potential of Sentinel-2 Data for Land Area Monitoring in Southeast Asian Conditions},
+}
+
+@Article{Dmit2014,
+  author       = {Дмитриев А.В., Чимитдорджиев Т.Н., Гусев М.А., Дагуров П.Н., Емельянов К.С., Захаров А.И., Кирбижекова И.И.},
+  date         = {2014},
+  journaltitle = {Исследование Земли из космоса.},
+  title        = {Базовые продукты зондирования Земли космическими радиолокаторами с синтезированной апертурой},
+  pages        = {83–91},
+}
+
+@WWW{www_Sent2017,
+  author = {Sentinel-1 / Copernicus / Observing the Earth / Our Activities/ ESA.},
+  date   = {2017},
+  title  = {http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Sentinel-1},
+  url    = {http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Sentinel-1},
+}
+
+@WWW{www_Hub.2017,
+  author = {Scientific Data Hub.},
+  date   = {2017},
+  title  = {https://scihub.copernicus.eu/},
+}
+
+@Article{Mazurov2015,
+  author       = {Мазуров Б. Т., Хамедов В. А., Князьков А. С.},
   date         = {2015},
-  journaltitle = {sss},
-  title        = {sss},
+  journaltitle = {Геодезия и аэрофотосъемка.},
+  title        = {Опыт использования космическихснимков с космических аппаратов типа «Канопус-В» и «БКА» для обнаружения участковнефтяных загрязнений на месторождениях Западной Сибири},
+  pages        = {179–183},
+}
+
+@Article{Hamedov2015,
+  author = {Хамедов В. А., Мазуров Б. Т.},
+  date   = {2015},
+  title  = {Разработка методических вопросов создания системыспутникового мониторинга состояния лесных экосистем в условиях воздействия нефтегазового комплекса территории Западной Сибири},
+  pages  = {16-31},
+}
+
+@Article{KarthikeyanVaidyanathan2015,
+  author = {Karthikeyan Vaidyanathan, Dhiraj D. Kalamkar, Kiran Pamnany, Jeff R. Hammond, Pavan Balaji, DipankarDas, Jongsoo Park and Balint Joo.},
+  date   = {2015},
+  title  = {Improving Concurrency and Asynchrony in Multithreaded MPI},
+}
+
+@Article{,
+  author = {Anne Jacquin, Lucie Misakova, Michel Gaya},
+  date   = {2008},
+  title  = {A hybrid object-based classification approach for mapping urban sprawl in peri urban environment.},
+  pages  = {152–165},
+}
+
+@Article{Romero2012,
+  author       = {Hugo Romero, Alexis Vásqueza, Claudio Fuentesa, Marcela Salgadoa, Andreas Schmidt, Ellen Banzhaf.},
+  date         = {2012},
+  journaltitle = {Ecological Indicators 23},
+  title        = {Assessing urban environmental segregation (UES). The case of Santiago de Chile.},
+  pages        = {76–87},
+}
+
+@Article{JialinLi2017,
+  author = {Jialin Li , Ruiliang Pu, Hongbo Gong , Xu Luo, Mengyao Ye and Baixiang Feng.},
+  date   = {2017},
+  title  = {Evolution Characteristics of Landscape Ecological Risk Patterns in Coastal Zones in Zhejiang province},
+}
+
+@Article{Gao2011,
+  author = {Gao, B.; Li, X.; Li, Z.; Chen,W.; He, X.; Qi, S.},
+  date   = {2011},
+  title  = {Assessment of ecological risk of coastal economic developing zones in Jinzhou Bay based on landscape pattern.},
+}
+
+@PhdThesis{Franci2015,
+  author = {Francesca Franci.},
+  date   = {2015},
+  title  = {The use of satellite remote sensing for flood risk management.},
+}
+
+@Article{,
+  author       = {T. Esch, M. Thiel, M. Bock, a. Roth, and S. Dech.},
+  date         = {2008},
+  journaltitle = {IEEE Geosci. Remote Sens.},
+  title        = {Improvement of Image Segmentation Accuracy Based on Multiscale Optimization Procedure.},
+  issue        = {3},
+  pages        = {463–467},
+  volume       = {5},
+}
+
+@Article{Margono2012,
+  author       = {B. A. Margono, S. Turubanova, I. Zhuravleva, P. Potapov, A. Tyukavina, A. Baccini, S. Goetz, and M. C. Hansen.},
+  date         = {2012},
+  journaltitle = {Environ. Res.},
+  title        = {Mapping and monitoring deforestation and forest degradation in Sumatra (Indonesia) using Landsat time series data sets from 1990 to 2010.},
+  issue        = {3},
+  volume       = {7},
+}
+
+@Article{Casciere2014,
+  author = {R. Casciere, F. Franci, and G. Bitelli.},
+  date   = {2014},
+  title  = {Use of Landsat imagery to detect land cover changes for monitoring soil sealing; case study: Bologna province (Italy)},
+}
+
+@Article{,
+  author = {K. E. Joyce, S. E. Belliss, S. V. Samsonov, S. J. McNeill, and P. J. Glassey.},
+  date   = {2009},
+  title  = {A review of the status of satellite remote sensing and image processing techniques for mapping natural hazards and disasters.},
+  issue  = {2},
+  pages  = {183–207},
+  volume = {33},
+}
+
+@Article{,
+  author       = {Corinne Lampin-Maillet, Marielle Jappiot, Marle`ne Long , Christophe Bouillon, Denis Morge, Jean-Paul Ferrier.},
+  date         = {2010},
+  journaltitle = {Journal of Environmental Management 91},
+  title        = {Mapping wildland-urban interfaces at large scales integrating housing density and vegetation aggregation for fire prevention in the South of France.},
+  pages        = {732–741},
+}
+
+@Article{Keane2001,
+  author       = {Keane, R.E., Burgan, R., Van Wagtendonk, J.},
+  date         = {2001},
+  journaltitle = {International Journal of Wildland Fire 10},
+  title        = {Mapping wildland fuels for fire management across multiple scales: integrating remote sensing, GIS, and biophysical modelling.},
+  pages        = {301–319},
+}
+
+@Article{Pew2001,
+  author       = {Pew, K.L., Larsen, C.P.S.},
+  date         = {2001},
+  journaltitle = {Forest ecology and management},
+  title        = {GIS analysis of spatial and temporal patterns of human-caused wildfires in the temperate rainforest of Vancouver Island, Canada.},
+  issue        = {140},
+  pages        = {1–18},
+  volume       = {1},
+}
+
+@Article{Sturtevant2007,
+  author       = {Sturtevant, B.R., Cleland, D.T.},
+  date         = {2007},
+  journaltitle = {International Journal of Wildland Fire},
+  title        = {Human and biophysical factors influencing modern fire disturbance in northern Wisconsin.},
+  issue        = {16},
+  pages        = {398–413},
+}
+
+@Article{Velez1997,
+  author = {Ve´ lez, R.},
+  date   = {1997},
+  title  = {Recent history of forest fires in Mediterranean area.},
+}
+
+@Article{Martinuzzi2007,
+  author       = {Sebasti´an Martinuzzi, William A. Gould, Olga M. Ramos Gonz´alez.},
+  date         = {2007},
+  journaltitle = {Landscape and Urban Planning},
+  title        = {Land development, land use, and urban sprawl in Puerto Rico integrating remote sensing and population census data. Landscape and Urban Planning},
+  issue        = {79},
+  pages        = {288–297},
+}
+
+@Article{Helmer2004,
+  author       = {Helmer, E.H.},
+  date         = {2004},
+  journaltitle = {Landscape Ecol},
+  title        = {Forest conservation and land development in Puerto Rico.},
+  issue        = {19},
+  pages        = {29-40},
+}
+
+@Article{Helmer2002,
+  author = {Helmer, E.H., Ramos Gonzalez, O.M., del Mar L´opez, T., Qui˜nonez, M., D´ıaz, W.},
+  date   = {2002},
+  title  = {Mapping the forest type and land cover of Puerto Rico, a component of the Caribbean biodiversity hotspot.},
+}
+
+@Article{Li2008,
+  author = {Li, X.; Li, J.},
+  date   = {2008},
+  title  = {Analysis on regional landscape ecological risk based on GIS - A case study along the lower reaches of the Weihe River.},
+}
+
+@WWW{Wang2018,
+  author = {Y. C. Wang, F. Wald, J. Vácha, M. Hajpál.},
+  date   = {2018},
+  title  = {Fire damaged structures.},
+  url    = {http://fire.fsv.cvut.cz/COST_C26_Prague/pdf/4-1_Fire damaged structures_sm.pdf},
+}
+
+@Conference{Felicetti.2014,
+  author    = {Roberto Felicetti.},
+  booktitle = {Conference: 8th International Conference on Structures in Fire},
+  date      = {2014},
+  title     = {Assessment of fire damage in concrete structures: new inspection tools and combined interpretation of results.},
+}
+
+@Article{Hamad1997,
+  author       = {Bilal S. Hamad.},
+  date         = {1997},
+  journaltitle = {Journal of Applied Fire Science},
+  title        = {Evaluation and Repair of Fire Damaged Reinforced Concrete Structures in Beirut, Lebanon.},
+  issue        = {6},
+  volume       = {2},
+}
+
+@Article{Alganci2010,
+  author       = {Ugur AlganciUgur Alganci, Elif SertelElif Sertel, Cankut Ormeci.},
+  date         = {2010},
+  journaltitle = {Conference: 30th EARSEL Symposium, Remote Sensing for Science, Educationand Natural and Cultural Heritage At: Paris, France.},
+  title        = {Forest Fire Damage Estimation Using Remote Sensing and GIS.},
+}
+
+@Article{FingasM2018,
+  author = {Fingas M., Brown C.E. A.},
+  date   = {2018},
+  title  = {Review of Oil Spill Remote Sensing. Sensors},
+}
+
+@Article{,
+  author       = {Sefah-Twerefour, A.A.;Wiafe, G.; Adu Agyekum, K.},
+  date         = {2015},
+  journaltitle = {In Proceedings of the 2015 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)},
+  title        = {Development of an algorithm for automatic detection of oil slicks from synthetic aperture radar (SAR) imagery in the Gulf of Guinea.},
+  pages        = {2105–2108},
+}
+
+@Article{,
+  author = {Ravi, A.; Giriprasad, M.N.; Naganjaneyulu, P.V.},
+  date   = {2017},
+  title  = {SAR images denoising using a novel stochastic diffusion wavelet scheme.},
+  pages  = {1-9},
+}
+
+@Article{DelFrate2013,
+  author = {Del Frate, F.; Latini, D.; Taravat, A.; Jones, C.E.},
+  date   = {2013},
+  title  = {A novel multi-band SAR data technique for fully automatic oil spill detection in the ocean.},
+}
+
+@Article{Marzialetti2016,
+  author       = {Marzialetti, P.; Laneve, G.},
+  date         = {2016},
+  journaltitle = {In Proceedings of the 2015 IEEE International Geoscience and Remote Sensing Symposium (IGARSS), Beijing, China},
+  title        = {Oil spill monitoring on water surfaces by radar L, C and X band SAR imagery: A comparison of relevant characteristics.},
+  pages        = {7715–7717},
+}
+
+@Book{,
+  author    = {Brown, C.E.},
+  date      = {2017},
+  title     = {Laser fluorosensor. In Oil Spill Science and Technology, 2nd ed.},
+  chapter   = {7},
+  pages     = {402–418},
+  publisher = {Gulf Publishing Company: Cambridge},
+}
+
+@WWW{IOGPReport2016,
+  author = {IOGP Report 549},
+  date   = {2016},
+  title  = {Satellite remote sensing of oil spills at sea. Good practice guidelines for the application of satellite remote sensing during oil spill response operations.},
+  url    = {http://www.oilspillresponseproject.org/wp-content/uploads/2017/01/Satellite_remote_sensing_2016.pdf},
+}
+
+@WWW{APITECHNICALREPORT2013,
+  author = {API TECHNICAL REPORT 1144},
+  date   = {2013},
+  title  = {Remote Sensing in Support of Oil Spill Response.},
+}
+
+@WWW{Roper2018,
+  author = {William E. Roper and Subijoy Dutta},
+  date   = {2018},
+  title  = {Oil Spill and Pipeline Condition Assessment Using Remote Sensing and Data Visualization Management Systems.},
+  url    = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.131.6669&rep=rep1&type=pdf},
+}
+
+@WWW{Hartdraft1998,
+  author = {Hartdraft, R.},
+  date   = {1998},
+  title  = {Satellite Radar Interferometry to Detect and Characterize Slope Motion Hazardous to Gas Pipelines: A Demonstration Study of Three Sites. Topical Report},
+  url    = {http://www.gri.org/pub/abstracts/ gri99-~. Html},
+}
+
+@Article{Report2001,
+  author = {A Staff Report},
+  date   = {2001},
+  title  = {Natural gas development continues to drive worldwide pipeline construction activities. Pipeline & Gas Industry},
+}
+
+@WWW{DerekBurrageP.I.2016,
+  author = {Derek Burrage (P.I.), Sonia Gallegos, Joel Wesson, Richard Gould, Richard Crout and Sean McCarthy.},
+  date   = {2016},
+  title  = {Remote Sensing Systems to Detect and Analyze Oil Spills on the US Outer Continental Shelf – A State of the Art Assessment.},
+  url    = {https://www.bsee.gov/sites/bsee.gov/files/osrr-oil-spill-response-research/1058aa.pdf},
+}
+
+@Book{Fingas2012,
+  author = {Fingas, M. and Brown, C.},
+  date   = {2012},
+  title  = {Oil Spill Remote Sensing. In Meyers R. A. (Ed) Encyclopedia of Sustainability Science and Technology},
+  pages  = {7491-7527},
+}
+
+@Article{,
+  author = {Jha, M. N., J. Levy and Y. Gao.},
+  date   = {2008},
+  title  = {Advances in Remote Sensing for Oil Spill Disaster Management: State-of-the-Art Sensors Technology for Oil Spill Surveillance},
+  pages  = {236-255},
+}
+
+@Article{Brekke2005,
+  author       = {Brekke, C. and Solberg Anne H. S.},
+  date         = {2005},
+  journaltitle = {Remote Sensing of Environment},
+  title        = {Oil spill detection by satellite remote sensing},
+  pages        = {1-13},
+  volume       = {95},
+}
+
+@Article{Rojas2011,
+  author       = {O. Rojas, A. Vrieling , F. Rembold.},
+  date         = {2011},
+  journaltitle = {Remote Sensing of Environment},
+  title        = {Assessing drought probability for agricultural areas in Africa with coarse resolution remote sensing imagery.},
+  issue        = {2},
+  pages        = {343-352},
+  volume       = {115},
+}
+
+@Article{Rhee2010,
+  author       = {Jinyoung Rhee, Jungho Im, Gregory J. Carbone.},
+  date         = {2010},
+  journaltitle = {Remote Sensing of Environment},
+  title        = {Monitoring agricultural drought for arid and humid regions using multi-sensor remote sensing data},
+  pages        = {2875–2887},
+}
+
+@Article{Agutua2017,
+  author       = {N.O. Agutua, J.L. Awangea, A. Zerihund, C.E. Ndehedehea, M. Kuhna, Y. Fukudac.},
+  date         = {2017},
+  journaltitle = {Remote sensing},
+  title        = {Assessing multi-satellite remote sensing, reanalysis, and land surface models products in characterizing agricultural drought in East Africa},
+  pages        = {287-302},
+}
+
+@Article{Du2013,
+  author       = {Lingtong Du , Qingjiu Tian , Tao Yu , Qingyan Meng , Tamas Jancso , Peter Udvardy , Yan Huang},
+  date         = {2013},
+  journaltitle = {International Journal of Applied Earth Observation and Geoinformation},
+  title        = {A comprehensive drought monitoring method integrating MODIS and TRMM data.},
+  pages        = {245-253},
+  volume       = {23},
+}
+
+@Article{Zhang2017,
+  author       = {Xiang Zhang , Nengcheng Chen , Jizhen Li , Zhihong Chen , Dev Niyogi},
+  date         = {2017},
+  journaltitle = {Remote Sensing of Environment},
+  title        = {Multi-sensor integrated framework and index for agricultural drought monitoring.},
+  pages        = {141-163},
+  volume       = {188},
+}
+
+@Article{,
+  author = {Warren B. Cohen, Samuel N. Goward.},
+  date   = {2004},
+  title  = {Landsat's Role in Ecological Applications of Remote Sensing. BioScience},
+  issue  = {6},
+  pages  = {535–545},
+  volume = {54},
+}
+
+@Article{LeeKLeeGBTyler1988,
+  author       = {Lee K Lee GB Tyler EJ},
+  date         = {1988},
+  journaltitle = {Soil Science Society of America Journal},
+  title        = {Determination of soil characteristics from thematic mapper data of a cropped organic-inorganic soil landscape.},
+  pages        = {1100-1104},
+  volume       = {52},
+}
+
+@Article{MaselliFRodolfiABottaiLConese1996,
+  author       = {Maselli F Rodolfi A Bottai L Conese C},
+  date         = {1996},
+  journaltitle = {International Journal of Remote Sensing},
+  title        = {Evaluation of forest fire risk by the analysis of environmental data and TM images},
+  pages        = {1417-1423},
+  volume       = {17},
+}
+
+@Article{McRoberts2002,
+  author       = {McRoberts R., Wendt D., Nelson M., Hansen M.},
+  date         = {2002},
+  journaltitle = {Remote Sensing of Environment},
+  title        = {Using a land cover classification based on satellite imagery to improve the precision of forest inventory area estimates},
+  pages        = {36-44},
+  volume       = {81},
+}
+
+@Article{Oetter2001,
+  author       = {Oetter D., Cohen W. B., Berterretche M., Maiersperger T., Kennedy R.},
+  date         = {2001},
+  journaltitle = {Remote Sensing of Environment},
+  title        = {Land cover mapping in an agricultural setting using multi seasonal Thematic Mapper data},
+  pages        = {193-155},
+  volume       = {76},
+}
+
+@Article{RockB.1986,
+  author       = {Rock B. N., Vogelmann J. E., Williams D. L., Vogelmann A. F., Hoshizaki T.},
+  date         = {1986},
+  journaltitle = {BioScience},
+  title        = {Remote detection of forest damage},
+  pages        = {439-445},
+  volume       = {36},
+}
+
+@Article{Steininger2000,
+  author       = {Steininger M.},
+  date         = {2000},
+  journaltitle = {International Journal of Remote Sensing.},
+  title        = {Satellite estimation of tropical secondary forest above-ground biomass: Data from Brazil and Bolivia.},
+  pages        = {1139-1157},
+  volume       = {21},
+}
+
+@Article{Woodcock1987,
+  author = {Woodcock C. E., Strahler A. H},
+  date   = {1987},
+  title  = {The factor of scale in remote sensing.},
+  pages  = {311-332},
+  volume = {21},
+}
+
+@Article{Mulla2013,
+  author       = {David J. Mulla},
+  date         = {2013},
+  journaltitle = {Biosystems Engineering},
+  title        = {Twenty five years of remote sensing in precision agriculture: Key advances and remaining knowledge gaps.},
+  issue        = {4},
+  pages        = {358-371},
+  volume       = {114},
+}
+
+@Article{,
+  author       = {Clement Atzberger},
+  date         = {2013},
+  journaltitle = {Remote sensing},
+  title        = {Advances in Remote Sensing of Agriculture: Context Description, Existing Operational Monitoring Systems and Major Information Needs.},
+  issue        = {2},
+  pages        = {949-981},
+  volume       = {5},
+}
+
+@Article{Wotton2009,
+  author = {B. M. Wotton, M. E. Alexander, S.W. Taylor},
+  date   = {2009},
+  title  = {Updates and revisions to the 1992 Canadian Forest Fire Behavior Prediction System},
+}
+
+@Article{Rothermel1983,
+  author = {Richard C. RothermelRichard C. Rothermel},
+  date   = {1983},
+  title  = {How to Predict the Spread and Intensity of Forest and Range Fires.},
+}
+
+@Article{Rothermel1981,
+  author = {Richard C. Rothermel},
+  date   = {1981},
+  title  = {Predicting Behavior and Size of Crown Fires in the Northen Rocky Mountains.},
+}
+
+@Article{Artes2016,
+  author = {Tomàs Artés, Ana Cortés, Tomàs Margalef},
+  date   = {2016},
+  title  = {Large Forest Fire Spread Prediction: Data and Computational Science},
+}
+
+@Article{Caton2016,
+  author       = {Caton SE, Hakes RSP, Gorham DJ, Zhou A, Gollner MJ},
+  date         = {2016},
+  journaltitle = {Fire Technol},
+  title        = {Review of pathways for building fire spread in the wildland urban interface part I: exposure conditions.},
+  issue        = {2},
+  pages        = {429–473},
+  volume       = {53},
+}
+
+@Article{Hamadeha2017,
+  author = {Nizar Hamadeha, Ali Karounib, Bassam Dayab, Pierre Chauvetc},
+  date   = {2017},
+  title  = {Using correlative data analysis to develop weather index that estimates the risk of forest fires in Lebanon & Mediterranean: Assessment versus prevalent meteorological indices},
+  pages  = {8-22},
+}
+
+@Article{Tsinkoa2018,
+  author = {Y. Tsinkoa, A. Bakhshaiia, E.A. Johnsona, Y.E. Martinb},
+  date   = {2018},
+  title  = {Comparisons of fire weather indices using Canadian raw and homogenized T weather dataComparisons of fire weather indices using Canadian raw and homogenized T weather data},
+}
+
+@Article{Ager2011,
+  author = {Alan A. Ager, Nicole M. Vaillant, Mark A. Finney},
+  date   = {2011},
+  title  = {Integrating Fire Behavior Models and Geospatial Analysis for Wildland Fire Risk Assessment and Fuel Management Planning},
+}
+
+@Article{Li2013,
+  author = {Xiaowei Li, Gang Zhao, Xiubo Yu, Qiang Yu},
+  date   = {2013},
+  title  = {A comparison of forest fire indices for predicting fire risk in contrasting climates in China},
+}
+
+@Article{Choi2020,
+  author = {Myoung-Young Choi, Sunghae Jun, Myoung-Young Choi, Sunghae Jun},
+  date   = {2020},
+  title  = {Fire Risk Assessment Models Using Statistical Machine Learning and Optimized Risk Indexing},
+}
+
+@Article{IsmaeL2019,
+  author = {Ismael Vallejo-Villalta, Estefanía Rodríguez-Navas and Joaquín Márquez-Pérez},
+  date   = {2019},
+  title  = {Mapping Forest Fire Risk at a Local Scale - A Case Study in Andalusia (Spain)},
+}
+
+@Article{Sikkink2015,
+  author = {Pamela G. Sikkink},
+  date   = {2015},
+  title  = {Comparison of Six Fire Severity Classification Methods Using Montana and Washington Wildland Fires},
+}
+
+@Article{Gorelick2017,
+  author = {Noel Gorelick, Matt Hancher, Mike Dixon, Simon Ilyushchenko, David Thau, Rebecca Moore},
+  date   = {2017},
+  title  = {Google Earth Engine: Planetary-scale geospatial analysis for everyone},
+}
+
+@PhdThesis{,
+  author = {Håkan Frantzich},
+  date   = {1998},
+  title  = {Uncertainty and Risk Analysis in Fire Safety Engineering},
+}
+
+@PhdThesis{Sanctis2015,
+  author = {Gianluca De Sanctis},
+  date   = {2015},
+  title  = {Generic Risk Assessment for Fire Safety Performance Evaluation and Optimisation of Design Provisions},
+}
+
+@Article{,
+  author = {Andrea Gabban, Jesús San-Miguel-Ayanz, Domingos X. Viegas},
+  date   = {2008},
+  title  = {Comparison of satellite-derived and meteorological indices},
+}
+
+@Article{Gabban2008,
+  author = {Andrea Gabban, Jesús San-Miguel-Ayanz, Domingos X. Viegas},
+  date   = {2008},
+  title  = {Comparison of satellite-derived and meteorological indices},
+}
+
+@Article{SeanA.Parks2018,
+  author = {Sean A. Parks, Lisa M. Holsinger, Morgan A. Voss, Rachel A. Loehman and Nathaniel P. Robinson},
+  date   = {2018},
+  title  = {Mean Composite Fire Severity Metrics Computed with Google Earth Engine Offer Improved Accuracy and Expanded Mapping Potential},
+}
+
+@Article{CesarAybar2020,
+  author = {Cesar Aybar, Qiusheng Wu, Lesly Bautista, Roy Yali, and AntonyBarja},
+  date   = {2020},
+  title  = {rgee: An R package for interacting with Google EarthEngine},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
